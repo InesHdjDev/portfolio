@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-$main-color: #3d3ab2;
+$primary-color: #3d3ab2;
+$secondary-color: #ffffff;
 $main-font-family: "Poppins", Sans-serif;
 
 body{
-    background-color: $main-color;
+    background-color: $primary-color;
     font-family: $main-font-family;
 }
 
 .sub_heading_title{
-    color: #ffffff;
+    color: $secondary-color;
     font-family: $main-font-family;
     font-size: 25px;
     font-weight: 500;
@@ -17,7 +18,7 @@ body{
 }
 
 .heading_title{
-    color: #ffffff;
+    color: $secondary-color;
     font-family: $main-font-family;
     font-size: 50px;
     font-weight: bold;
@@ -27,35 +28,54 @@ body{
 .p-btn{
     line-height: 1em;
     fill: red;
-    color: $main-color;
-    background-color: #ffffff;
+    color: $primary-color;
+    background-color: $secondary-color;
     font-weight: 500;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: #ffffff;
+    border-color: $secondary-color;
     border-radius: 30px 30px 30px 30px;
     padding: 15px 40px 15px 40px;
 }
 
 .p-btn:hover{
-    color: #ffffff;
+    color: $secondary-color;
     background-color: rgba(0,0,0,0);
 }
 
 .d-btn{
     font-family: $main-font-family;
     line-height: 1em;
-    fill: #ffffff;
-    color: #ffffff;
+    fill: $secondary-color;
+    color: $secondary-color;
     background-color: rgba(255,255,255,0);
     border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: #ffffff;
+    border-color: $secondary-color;
     border-radius: 30px 30px 30px 30px;
     padding: 15px 40px 15px 40px;
 }
 
 .d-btn:hover{
-    color: $main-color;
-    background-color: #ffffff;
+    color: $primary-color;
+    background-color: $secondary-color;
+}
+
+.contact-link{
+    color: $secondary-color;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    color: $secondary-color;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
 }
