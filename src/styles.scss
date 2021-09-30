@@ -6,9 +6,13 @@ $main-font-family: "Poppins", Sans-serif;
 body{
     background-color: $primary-color;
     font-family: $main-font-family;
+    // sm
+    @media (min-width: 320px) {
+        padding: 24px;
+    }
 }
 
-.sub_heading_title{
+.home_sub_heading_title{
     color: $secondary-color;
     font-family: $main-font-family;
     font-size: 25px;
@@ -17,12 +21,28 @@ body{
     line-height: 1.2em;
 }
 
-.heading_title{
+.home_heading_title{
     color: $secondary-color;
     font-family: $main-font-family;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
+    text-transform: uppercase;
     line-height: 1.3em;
+}
+
+.sub_heading_title{
+    font-family: $main-font-family;
+    /* font-size: 25px; */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.heading_title{
+    font-family: $main-font-family;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .p-btn{
@@ -79,3 +99,4 @@ body{
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
 }
+
