@@ -16,30 +16,6 @@
     line-height: 2em;
 }
 
-.animated {
-    -webkit-animation-duration: 1.25s;
-    animation-duration: 1.25s;
-} 
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translate3d(0,100%,0);
-    }
-    100% {
-        opacity: 1;
-        transform: none;
-    }
-}
-
-.fadeInUp {
-    animation-name: fadeInUp;
-}
-
-.animated-container {
-    overflow: hidden;
-}
-
 #about-me{
     // sm
     @media (min-width: 320px) {
