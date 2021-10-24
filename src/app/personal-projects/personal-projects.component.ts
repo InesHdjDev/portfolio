@@ -1,15 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, ElementRef, HostListener, Inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-personal-projects',
   templateUrl: './personal-projects.component.html',
   styleUrls: ['./personal-projects.component.scss']
 })
-export class PersonalProjectsComponent implements OnInit {
+export class PersonalProjectsComponent {
 
-  constructor() { }
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private el: ElementRef
+    ) { }
 
-  ngOnInit(): void {
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      this.el.nativeElement.querySelector("#personal-projects").classList.add('fadeInUp');
+    }
   }
 
 }
