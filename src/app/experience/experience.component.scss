@@ -19,6 +19,15 @@
     margin-bottom: 0px;
     padding: 20px 20px 20px 20px;
     border-radius: 150px 150px 150px 150px;
+
+    // sm
+    @media (min-width: 320px) {
+        width: 100%;
+    }
+    // md
+    @media (min-width: 768px) {
+        width: 75%;
+    }
 }
 
 .p-btn{
@@ -34,7 +43,15 @@
     border-width: 2px 2px 2px 2px;
     border-color: #3d3ab2;
     border-radius: 150px 150px 150px 150px;
-    padding: 15px 50px 15px 50px;
+    
+    // sm
+    @media (min-width: 320px) {
+        padding: 10px 35px 10px 35px;
+    }
+    // md
+    @media (min-width: 768px) {
+        padding: 15px 50px 15px 50px;
+    }
 }
 
 .p-btn:hover{
@@ -70,6 +87,7 @@
 .experience_desc_container{
     //sm
     @media (min-width: 320px) {
+        padding-bottom: 30px;
         flex: 0 0 auto;
         width: 90%;
     }
@@ -136,14 +154,22 @@
 
 .experience_col::after{
     content: "";
-    padding: 50px;
     display: table;
-    clear: both;    
+    clear: both; 
+
+    //sm
+    @media (min-width: 320px) {
+        padding: 0px;
+    }
+    // md
+    @media (min-width: 768px) {
+        padding: 15px;
+    }   
 }
 
 .experience_col{
     @media (min-width: 320px) {
-        margin-top: 28px;
+        margin-top: 60px;
     }
 }
 
@@ -169,9 +195,17 @@
     background: rgba(255,255,255,0.2);
     display: inline-block;
     position: absolute;
-    left: 36px;
     width: 5px;
     height: 100%;
     z-index: -1;
     border-radius: 1rem;
+    
+    //sm
+    @media (min-width: 320px) {
+        left: 15px;
+    }
+    // md
+    @media (min-width: 768px) {
+        left: 36px;
+    }
 }

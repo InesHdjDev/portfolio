@@ -96,9 +96,15 @@
 
 .skills_col::after{
     content: "";
-    padding: 50px;
     display: table;
-    clear: both;    
+    clear: both;  
+    
+    @media (min-width: 320px) {
+        padding: 0px;
+    }
+    @media (min-width: 768px) {
+        padding: 50px;
+    }
 }
 
 .skills_col{
