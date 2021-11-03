@@ -15,7 +15,7 @@ export class SkillsComponent {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
       this.el.nativeElement.querySelector("#skills-section").classList.add('fadeInUp');
     }
   }

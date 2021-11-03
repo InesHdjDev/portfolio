@@ -15,7 +15,7 @@ export class PersonalProjectsComponent {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
       this.el.nativeElement.querySelector("#personal-projects").classList.add('fadeInUp');
     }
   }

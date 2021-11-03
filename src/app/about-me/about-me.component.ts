@@ -14,7 +14,7 @@ export class AboutMeComponent {
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       this.el.nativeElement.querySelector("#about-me").classList.add('fadeInUp');
     }
   }
