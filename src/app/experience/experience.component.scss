@@ -208,31 +208,4 @@
     height: 100%;
     z-index: -1;
     border-radius: 1rem;
-    
-    //sm
-    @media (min-width: 320px) {
-        left: 10px;
-    }
-    @media (min-width: 420px) {
-        left: 20px;
-    }
-    @media (min-width: 540px) {
-        left: 30px;
-    }
-    @media (min-width: 620px) {
-        left: 36px;
-    }
-    // md
-    @media (min-width: 768px) {
-        left: 13px;
-    }
-    @media (min-width: 1000px) {
-        left: 36px;
-    }
-    @media (min-width: 1020px) {
-        left: 28px;
-    }
-    @media (min-width: 1100px) {
-        left: 36px;
-    }
 }
