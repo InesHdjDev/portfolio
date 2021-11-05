@@ -1,0 +1,30 @@
+.contact-me-div{
+    // sm
+    @media (min-width: 320px) {
+        width: 75%;
+    }
+    // md
+    @media (min-width: 1000px) {
+        width: 50%;
+    }
+}
+
+.title {
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.p-btn{
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    line-height: 1em;
+    color: #ffffff;
+    background-color: #3d3ab2;
+}
+
+.p-btn:hover{
+    background-color: #35329a;
+}
