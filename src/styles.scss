@@ -3,6 +3,22 @@ $primary-color: #3d3ab2;
 $secondary-color: #ffffff;
 $main-font-family: "Poppins", Sans-serif;
 
+.primary-bg{
+    background-color: $primary-color;
+}
+
+.primary-color{
+    color: $primary-color;
+}
+
+.secondary-bg{
+    background-color: $secondary-color;
+}
+
+.secondary-color{
+    color: $secondary-color;
+}
+
 body{
     background-color: $primary-color;
     font-family: $main-font-family;
