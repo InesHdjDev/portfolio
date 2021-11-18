@@ -12,7 +12,13 @@
 
 @media (min-width: 1000px) {
     .contact_container{
-        width: 50%;
+        width: 80%;
+    }
+
+    .contact-svg-container{
+        position: absolute;
+        bottom: -50px; 
+        right: -55px;
     }
 }
 

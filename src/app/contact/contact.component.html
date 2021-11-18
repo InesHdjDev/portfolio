@@ -1,46 +1,69 @@
 <app-header></app-header>
-<section id="contact-section" class="container-fluid p-0 p-sm-5 mt-5 d-flex justify-content-center align-items-center">
-    <!-- <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12"> -->
-            <div class="contact_container p-4 p-sm-5 bg-white text-center">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                        <span class="sub_heading_title" style="color: #3d3ab2; font-size: clamp(1rem, 1rem, 1rem);">GET IN TOUCH</span>
+<section id="contact-section" class="container-fluid p-0 p-sm-5 mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center w-100">
+            <span class="home_sub_heading_title" style="text-transform: none; font-size: clamp(1rem, 1.2rem, 1.5rem);">Feel Free To Contact Me Any Time</span>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center mt-5 w-100">
+        <div class="row contact_container mt-lg-5">
+            <div class="col-sm-12 col-md-12 col-lg-5 mt-5 mt-lg-0 position-relative order-last order-lg-1">
+                <div class="contact-svg-container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12" style="z-index: -1;">
+                            <img src="assets/images/Get in touch-rafiki.svg" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="row" style="background-color: #f2f2f2; border-radius: 30px;">
+                        <div class="col-sm-12 col-md-12 col-lg-12 p-2 d-flex align-items-center justify-content-center">
+                            <a class="contact-link d-flex align-items-center justify-content-center mx-3" style="background-color: #d93025;" href=""> <i class="fas fa-at"></i> </a>
+                            <a class="contact-link d-flex align-items-center justify-content-center mx-3" style="background-color: #0077b5;" href=""> <i class="fab fa-linkedin"></i> </a>
+                            <a class="contact-link d-flex align-items-center justify-content-center mx-3" style="background-color: #211F1F;" href=""> <i class="fab fa-github"></i> </a>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                        <span class="heading_title" style="color: #3d3ab2; font-weight: bold; font-size: clamp(1rem, 1.5rem, 1.8rem);">CONTACT me</span>
-                    </div>
-                </div>
-                <form [formGroup]="contactForm" >
-                    <div class="row mt-4">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <input type="text" class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <input type="text" class="form-control form_input w-100" placeholder="Project Name" formControlName="project">
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <input type="email" class="form-control form_input w-100" placeholder="Email" formControlName="_replyto">
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <textarea class="form-control form_input w-100" rows="5" placeholder="Message" formControlName="message"></textarea>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <button class="btn p-btn rounded-pill">Send message</button>
-                        </div>
-                    </div>
-                </form>
             </div>
-        <!-- </div>
-    </div> -->
+            <div class="col-sm-12 col-md-12 col-lg-7 order-first order-lg-2">
+                <div class=" p-4 p-sm-5 bg-white text-center">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                            <span class="sub_heading_title" style="color: #3d3ab2; font-size: clamp(1rem, 1rem, 1rem);">GET IN TOUCH</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                            <span class="heading_title" style="color: #3d3ab2; font-weight: bold; font-size: clamp(1rem, 1.5rem, 1.8rem);">CONTACT me</span>
+                        </div>
+                    </div>
+                    <form [formGroup]="contactForm" >
+                        <div class="row mt-4">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <input type="text" class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <input type="text" class="form-control form_input w-100" placeholder="Subject" formControlName="subject">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <input type="email" class="form-control form_input w-100" placeholder="Email" formControlName="_replyto">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <textarea class="form-control form_input w-100" rows="5" placeholder="Message" formControlName="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <button class="btn p-btn rounded-pill">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

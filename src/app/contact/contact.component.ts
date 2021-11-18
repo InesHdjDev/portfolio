@@ -12,8 +12,8 @@ export class ContactComponent implements OnInit {
   initContactForm(){
     this.contactForm = new FormGroup({
       name: new FormControl('', Validators.required),
-      _replyto: new FormControl('', Validators.required),
-      project: new FormControl('', Validators.required),
+      _replyto: new FormControl('',[ Validators.required, Validators.email]),
+      subject: new FormControl('', Validators.required),
       message: new FormControl('', Validators.required),
     })
   }
