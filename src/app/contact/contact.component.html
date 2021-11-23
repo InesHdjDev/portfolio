@@ -41,10 +41,15 @@
                             <span class="heading_title" style="color: #3d3ab2; font-weight: bold; font-size: clamp(1rem, 1.6rem, 1.8rem);">CONTACT</span>
                         </div>
                     </div>
-                    <form [formGroup]="contactForm" >
+                    <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)">
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <input type="text" class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <input type="email" class="form-control form_input w-100" placeholder="Your Email" formControlName="_replyto">
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -54,17 +59,12 @@
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <input type="email" class="form-control form_input w-100" placeholder="Email" formControlName="_replyto">
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
                                 <textarea class="form-control form_input w-100" rows="5" placeholder="Message" formControlName="message"></textarea>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <button class="btn p-btn rounded-pill">Send message</button>
+                                <button class="btn p-btn rounded-pill" #btnSM>Send message</button>
                             </div>
                         </div>
                     </form>

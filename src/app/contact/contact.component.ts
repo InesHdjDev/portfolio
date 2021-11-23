@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
@@ -18,10 +19,35 @@ export class ContactComponent implements OnInit {
     })
   }
 
-  constructor() { }
+  constructor(
+    private http: HttpClient
+  ) { }
 
   ngOnInit(): void {
     this.initContactForm();
+  }
+
+  sendMessage(btn: any){
+    btn.disabled = true
+
+    const data = <any>{
+      name: this.contactForm.get("name").value,
+      _replyto: this.contactForm.get("_replyto").value,
+      message: "SUBJECT: \n" + this.contactForm.get("subject").value + "\n MESSAGE: \n" + this.contactForm.get("message").value,
+    }
+
+    this.http.post("https://formspree.io/f/mgergyrb", data).subscribe(
+      res =>{
+        btn.disabled = false;
+        console.log("res")
+      },
+      err =>{
+        btn.disabled = false;
+        console.log("err")
+      }
+    )
+
+
   }
 
 }
