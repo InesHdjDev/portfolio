@@ -44,22 +44,27 @@
                     <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)">
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <input type="text" class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
+                                <input type="text" pInputText class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
+                                <small *ngIf="contactForm.controls.name.invalid && contactForm.controls.name.touched  && contactForm.controls.name.errors['required'];" class="text-danger">The full name field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <input type="email" class="form-control form_input w-100" placeholder="Your Email" formControlName="_replyto">
+                                <input type="email" pInputText class="form-control form_input w-100" placeholder="Your Email" formControlName="_replyto">
+                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger">The email field is required.</small>
+                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['email'];" class="text-danger">The email field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <input type="text" class="form-control form_input w-100" placeholder="Subject" formControlName="subject">
+                                <input type="text" pInputText class="form-control form_input w-100" placeholder="Subject" formControlName="subject">
+                                <small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger">The subject field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <textarea class="form-control form_input w-100" rows="5" placeholder="Message" formControlName="message"></textarea>
+                                <small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger">The message field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-4">
@@ -73,3 +78,4 @@
         </div>
     </div>
 </section>
+<p-toast key="KeyContact" position="bottom-right" [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>
