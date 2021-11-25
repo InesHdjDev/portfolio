@@ -10,6 +10,8 @@ import { MessageService } from 'primeng/api';
 })
 export class ContactComponent implements OnInit {
 
+  complete: boolean = false;
+
   contactForm: any;
   initContactForm(){
     this.contactForm = new FormGroup({
@@ -42,10 +44,14 @@ export class ContactComponent implements OnInit {
       this.http.post("https://formspree.io/f/mgergyrb", data).subscribe(
         res =>{
           this.messageService.add({key: 'KeyContact', severity:'success', summary:'Message', detail:'Envoyé avec Succès'});
-          btn.disabled = false;
+          this.complete = true;
+          setTimeout(() => {
+            btn.disabled = false;
+          }, 1000);
           console.log("res")
         },
         err =>{
+          this.complete = false;
           btn.disabled = false;
           this.messageService.add({key: 'KeyContact', severity:'error', summary:'Error', detail: JSON.stringify(err)});
           console.log("err")
@@ -56,6 +62,8 @@ export class ContactComponent implements OnInit {
         const control = this.contactForm.get(field);
         control.markAsTouched({ onlySelf: true });
       });
+      this.complete = false;
+      btn.disabled = false;
     }
   }
 

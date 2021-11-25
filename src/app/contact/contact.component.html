@@ -43,33 +43,34 @@
                     </div>
                     <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)">
                         <div class="row mt-4">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="text" pInputText class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
                                 <small *ngIf="contactForm.controls.name.invalid && contactForm.controls.name.touched  && contactForm.controls.name.errors['required'];" class="text-danger">The full name field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="email" pInputText class="form-control form_input w-100" placeholder="Your Email" formControlName="_replyto">
                                 <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger">The email field is required.</small>
-                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['email'];" class="text-danger">The email field is required.</small>
+                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.dirty && contactForm.controls._replyto.errors['email'];" class="text-danger">The email format is invalid.</small>
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="text" pInputText class="form-control form_input w-100" placeholder="Subject" formControlName="subject">
                                 <small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger">The subject field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <textarea class="form-control form_input w-100" rows="5" placeholder="Message" formControlName="message"></textarea>
+                            <div class="col-sm-12 col-md-12 col-lg-12 text-start">
+                                <textarea class="form-control form_input w-100" pInputTextarea rows="5" placeholder="Message" formControlName="message"></textarea>
                                 <small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger">The message field is required.</small>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                <button class="btn p-btn rounded-pill" #btnSM>Send message</button>
+                                <!-- <button class="btn p-btn rounded-pill" #btnSM> <span> <app-loader-checkmark [complete]="false"></app-loader-checkmark></span></button> -->
+                                <button class="btn p-btn rounded-pill" #btnSM>{{btnSM.disabled? "" : "Send message"}} <app-loader-checkmark *ngIf="btnSM.disabled" [complete]="complete"></app-loader-checkmark></button>
                             </div>
                         </div>
                     </form>

@@ -17,6 +17,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {ToastModule} from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import {InputTextModule} from 'primeng/inputtext';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+import { SharedModule } from './shared/shared.module';
+import {ButtonModule} from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -37,6 +41,10 @@ import { MessageService } from 'primeng/api';
     ReactiveFormsModule,
     HttpClientModule,
     ToastModule,
+    InputTextModule,
+    InputTextareaModule,
+    ButtonModule,
+    SharedModule,
     AppRoutingModule
   ],
   providers: [MessageService],
