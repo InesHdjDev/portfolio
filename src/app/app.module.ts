@@ -21,6 +21,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import { SharedModule } from './shared/shared.module';
 import {ButtonModule} from 'primeng/button';
+import {ScrollTopModule} from 'primeng/scrolltop';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import {ButtonModule} from 'primeng/button';
     InputTextareaModule,
     ButtonModule,
     SharedModule,
+    ScrollTopModule,
     AppRoutingModule
   ],
   providers: [MessageService],
