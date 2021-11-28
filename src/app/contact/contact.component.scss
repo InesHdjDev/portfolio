@@ -45,3 +45,8 @@
 .p-btn:hover{
     background-color: #35329a;
 }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
