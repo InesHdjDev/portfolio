@@ -2,3 +2,7 @@
     -webkit-animation-duration: 1.25s;
     animation-duration: 1.25s;
 } 
+
+:host ::ng-deep .links-bar-container{
+    border-radius: 0 !important;
+}
