@@ -22,6 +22,10 @@ import {InputTextareaModule} from 'primeng/inputtextarea';
 import { SharedModule } from './shared/shared.module';
 import {ButtonModule} from 'primeng/button';
 import {ScrollTopModule} from 'primeng/scrolltop';
+import { APP_BASE_HREF } from '@angular/common';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FatalComponent } from './fatal/fatal.component';
+import { ErrorOccurredComponent } from './error-occurred/error-occurred.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,10 @@ import {ScrollTopModule} from 'primeng/scrolltop';
     ExperienceComponent,
     ContactMeComponent,
     HeaderComponent,
-    ContactComponent
+    ContactComponent,
+    PageNotFoundComponent,
+    FatalComponent,
+    ErrorOccurredComponent
   ],
   imports: [
     BrowserModule,
@@ -52,4 +59,8 @@ import {ScrollTopModule} from 'primeng/scrolltop';
   providers: [MessageService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+
+export class AppModule {
+  
+}
