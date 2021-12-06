@@ -4,6 +4,14 @@
   <meta charset="utf-8">
   <title>Portfolio</title>
   <base href="/">
+  <script>
+    (function() {
+      let path =  window.location.pathname.split('/')[1]
+      if(path === 'fr' || path === 'ar'){
+        window['_app_base'] = '/' + path;
+      }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>

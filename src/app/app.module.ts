@@ -56,7 +56,7 @@ import { ErrorOccurredComponent } from './error-occurred/error-occurred.componen
     ScrollTopModule,
     AppRoutingModule
   ],
-  providers: [MessageService],
+  providers: [{provide: APP_BASE_HREF, useValue: window[<any>'_app_base'] || '/'}, MessageService],
   bootstrap: [AppComponent]
 })
 
