@@ -12,5 +12,12 @@
 		},
 		"projects": "المشاريع",
 		"skills": "المهارات"
+	},
+	"home": {
+		"desc": "مرحبا بكم في موقع  اعمالي",
+		"primary_button": "وظفني",
+		"secondary_button": "احصل على السيرة الذاتية",
+		"sub_title": "مرحبًا ، أنا إيناس حجاجي",
+		"title": "Full Stack مطورة ويب"
 	}
 }

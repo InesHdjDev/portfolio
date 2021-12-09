@@ -12,5 +12,12 @@
 		},
 		"projects": "Projects",
 		"skills": "Skills"
+	},
+	"home": {
+		"desc": "Welcome to my Portfolio Website",
+		"primary_button": "Hire Me",
+		"secondary_button": "Get CV",
+		"sub_title": "Hello, I'm Ines Hadjadji",
+		"title": "Full Stack web developer"
 	}
 }

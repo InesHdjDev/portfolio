@@ -12,5 +12,12 @@
 		},
 		"projects": "Projets",
 		"skills": "Compétences"
+	},
+	"home": {
+		"desc": "Bienvenue sur mon site Portfolio",
+		"primary_button": "Engagez-moi",
+		"secondary_button": "Obtenir un CV",
+		"sub_title": "Bonjour, je suis Ines Hadjadji",
+		"title": "Développeuse web Full Stack"
 	}
 }
