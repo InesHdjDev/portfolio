@@ -14,7 +14,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import {ToastModule} from 'primeng/toast';
 import { MessageService } from 'primeng/api';
 import {InputTextModule} from 'primeng/inputtext';
@@ -26,6 +26,8 @@ import { APP_BASE_HREF } from '@angular/common';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FatalComponent } from './fatal/fatal.component';
 import { ErrorOccurredComponent } from './error-occurred/error-occurred.component';
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 @NgModule({
   declarations: [
@@ -54,13 +56,42 @@ import { ErrorOccurredComponent } from './error-occurred/error-occurred.componen
     ButtonModule,
     SharedModule,
     ScrollTopModule,
+    TranslateModule.forRoot({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+    }),
     AppRoutingModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: window[<any>'_app_base'] || '/'}, MessageService],
+  providers: [{provide: APP_BASE_HREF, useFactory: getLang, deps: [TranslateService]}, MessageService],
   bootstrap: [AppComponent]
 })
 
 
 export class AppModule {
   
+}
+
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
+  return new TranslateHttpLoader(http);
+}
+
+export function getLang(translate: TranslateService){
+  let path =  window.location.pathname.split('/')[1]
+  if(path === 'fr' || path === 'ar' || path === 'en'){
+    translate.setDefaultLang(path);
+    (window as any)['_app_base'] = '/' + path;
+  }else{
+    const lang = navigator.language
+    if(lang === 'fr' || lang === 'ar'){
+      translate.setDefaultLang(lang);
+      (window as any)["_app_base"] = '/' + lang;
+    }else{
+      translate.setDefaultLang('en');
+      (window as any)["_app_base"] = '/'
+    }
+  }
+  return (window as any)["_app_base"] || '/';
 }
