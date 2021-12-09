@@ -1,4 +1,9 @@
 {
+	"about_me": {
+		"paragraph": "Full stack developer with 2+ years experience in web application layers and databases utilizing a range of technologies & frameworks, including Laravel and Angular. developed and maintained 3 dashboards for advanced  technical usage which help increase the productivity of the admin.\nSeeking to leverage development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
+		"sub_title": "Introduction",
+		"title": "About me"
+	},
 	"header": {
 		"about_me": "About",
 		"contact": "Contact",
