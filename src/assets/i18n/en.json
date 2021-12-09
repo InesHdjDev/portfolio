@@ -1,0 +1,16 @@
+{
+	"header": {
+		"about_me": "About",
+		"contact": "Contact",
+		"experience": "Experience",
+		"home": "Home",
+		"language": {
+			"arab": "Arab",
+			"english": "English",
+			"french": "French",
+			"label": "Language"
+		},
+		"projects": "Projects",
+		"skills": "Skills"
+	}
+}

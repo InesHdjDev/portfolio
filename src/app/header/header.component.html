@@ -5,34 +5,34 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="dropdown mb-0 order-md-2">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgba(255,255,255,.55);">
-                    Language
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: rgba(255,255,255,.55);" translate>
+                    <i class="fas fa-globe me-1"></i> header.language.label
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item text-center" href="#">En</a></li>
-                    <li><a class="dropdown-item text-center" href="#">Fr</a></li>
-                    <li><a class="dropdown-item text-center" href="#">Ar</a></li>
+                    <li><a class="dropdown-item text-center" style="cursor: pointer;" (click)="changeLang('/en')" translate>header.language.english</a></li>
+                    <li><a class="dropdown-item text-center" style="cursor: pointer;" (click)="changeLang('/fr')" translate>header.language.french</a></li>
+                    <li><a class="dropdown-item text-center" style="cursor: pointer;" (click)="changeLang('/ar')" translate>header.language.arab</a></li>
                 </ul>
               </div>
             <div class="collapse navbar-collapse order-md-1" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-center" aria-current="page" [routerLink]="['/']" fragment="home-section" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+                        <a class="nav-link text-center" aria-current="page" [routerLink]="['/']" fragment="home-section" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" translate>header.home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" [routerLink]="['/']" fragment="about-me" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">About</a>
+                        <a class="nav-link text-center" [routerLink]="['/']" fragment="about-me" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" translate>header.about_me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" [routerLink]="['/']" fragment="skills-section" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Skills</a>
+                        <a class="nav-link text-center" [routerLink]="['/']" fragment="skills-section" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" translate>header.skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" [routerLink]="['/']" fragment="personal-projects" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Projects</a>
+                        <a class="nav-link text-center" [routerLink]="['/']" fragment="personal-projects" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" translate>header.projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center"[routerLink]="['/']" fragment="experience-section" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Experience</a>
+                        <a class="nav-link text-center"[routerLink]="['/']" fragment="experience-section" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" translate>header.experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-center" [routerLink]="['/contact']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">Contact</a>
+                        <a class="nav-link text-center" [routerLink]="['/contact']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }" translate>header.contact</a>
                     </li>
                 </ul>
             </div>

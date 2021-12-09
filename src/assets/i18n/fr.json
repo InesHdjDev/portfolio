@@ -1,0 +1,16 @@
+{
+	"header": {
+		"about_me": "À propos",
+		"contact": "Contact",
+		"experience": "Expérience",
+		"home": "Accueil",
+		"language": {
+			"arab": "Arabe",
+			"english": "Anglais",
+			"french": "Français",
+			"label": "Langue"
+		},
+		"projects": "Projets",
+		"skills": "Compétences"
+	}
+}
