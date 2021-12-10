@@ -25,6 +25,22 @@
 		"sub_title": "Bonjour, je suis Ines Hadjadji",
 		"title": "Développeuse web Full Stack"
 	},
+	"projects": {
+		"project_1": {
+			"desc": "",
+			"title": "Dashboard"
+		},
+		"project_2": {
+			"desc": "",
+			"title": "Dashboard"
+		},
+		"project_3": {
+			"desc": "",
+			"title": "Dashboard"
+		},
+		"sub_title": "Mon œuvre",
+		"title": "Projets personnels"
+	},
 	"skills": {
 		"skill_1": {
 			"desc": "HTML, CSS, Typescript, HTTPClient, Guard, Interceptor, PipeTransform, ReactiveForms, ...",

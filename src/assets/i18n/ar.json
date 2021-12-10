@@ -25,6 +25,22 @@
 		"sub_title": "مرحبًا ، أنا إيناس حجاجي",
 		"title": "Full Stack مطورة ويب"
 	},
+	"projects": {
+		"project_1": {
+			"desc": "",
+			"title": "Dashboard"
+		},
+		"project_2": {
+			"desc": "",
+			"title": "Dashboard"
+		},
+		"project_3": {
+			"desc": "",
+			"title": "Dashboard"
+		},
+		"sub_title": "أعمالي",
+		"title": "المشاريع الشخصية"
+	},
 	"skills": {
 		"skill_1": {
 			"desc": "HTML, CSS, Typescript, HTTPClient, Guard, Interceptor, PipeTransform, ReactiveForms, ...",
