@@ -24,5 +24,29 @@
 		"secondary_button": "Obtenir un CV",
 		"sub_title": "Bonjour, je suis Ines Hadjadji",
 		"title": "Développeuse web Full Stack"
+	},
+	"skills": {
+		"skill_1": {
+			"desc": "HTML, CSS, Typescript, HTTPClient, Guard, Interceptor, PipeTransform, ReactiveForms, ...",
+			"title": "Angular"
+		},
+		"skill_2": {
+			"desc": "State Management, Store, Action, Reducer, Selector, ...",
+			"title": "NgRx"
+		},
+		"skill_3": {
+			"desc": "PHP, RESTful API, Eloquent ORM, Authentication, Authorization, ...",
+			"title": "Laravel"
+		},
+		"skill_4": {
+			"desc": "Layout, Forms, Components, Icons, ...",
+			"title": "Bootstrap"
+		},
+		"skill_5": {
+			"desc": "GitLab, GitHub, ...",
+			"title": "Git"
+		},
+		"sub_title": "EXPERTISE",
+		"title": "compétences particulières"
 	}
 }
