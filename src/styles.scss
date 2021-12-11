@@ -3,6 +3,14 @@ $primary-color: #3d3ab2;
 $secondary-color: #ffffff;
 $main-font-family: "Poppins", Sans-serif;
 
+body { 
+    direction: ltr;
+ }
+ 
+ [lang="ar"] body {
+    direction: rtl;
+ }
+
 .primary-bg{
     background-color: $primary-color;
 }

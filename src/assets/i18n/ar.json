@@ -4,6 +4,28 @@
 		"sub_title": "المقدمة",
 		"title": "نبذة مختصرة عني"
 	},
+	"experience": {
+		"experience_1": {
+			"date": "يناير 2020 - مايو 2020",
+			"desc": "• تطوير dashbord من الصفر لإدارة الموظفين باستخدام: CodeIgniter.",
+			"title": "@3IT ،مطورة ويب مستقل"
+		},
+		"experience_2": {
+			"date": "يونيو 2020 - سبتمبر 2020",
+			"desc": "• تطوير API من الصفر لنظام التوصيل باستخدام Laravel و RESTful API.",
+			"title": "@RymServices ، Back-endدورة تدريبية حول ال"
+		},
+		"experience_3": {
+			"date": "سبتمبر 2020",
+			"desc": "• صيانة، تصجيج الأخطاء وتطوير وحدات جديدة في <b> FoodBeeper dashboard </b> من الصفر، باستخدام: Angular.",
+			"desc_2": "• تطوير dashboard لإدارة زبائن <b> منصة DZtenders </b> من الصفر ، باستخدام: Angular.",
+			"title": "@RymServices ،لتطبيقات الويب Frontend مطورة"
+		},
+		"primary_button": "وظفني",
+		"secondary_button": "احصل على CV",
+		"sub_title": "المؤهلات",
+		"title": "لماذا تستأجرني؟"
+	},
 	"header": {
 		"about_me": "نبذة مختصرة",
 		"contact": "اتصال",

@@ -4,6 +4,28 @@
 		"sub_title": "Introduction",
 		"title": "À propos de moi"
 	},
+	"experience": {
+		"experience_1": {
+			"date": "Janvier 2020 - Mai 2020",
+			"desc": "• Développement d'un dashboard de gestion des employés à partir de zéro, en utilisant : CodeIgniter.",
+			"title": "Développeuse Web Full Stack indépendante, @3IT"
+		},
+		"experience_2": {
+			"date": "juin 2020 - septembre 2020",
+			"desc": "• développement d'une API de système de livraison à partir de zéro, en utilisant : Laravel, API RESTful.",
+			"title": "Stage backend, @RymServices"
+		},
+		"experience_3": {
+			"date": "septembre 2020",
+			"desc": "• Maintenance, corrections de bugs et ajout de nouveaux modules sur le dashboard <b> FoodBeeper </b> , en utilisant : Angular.",
+			"desc_2": "• Développement d'un dashboard de gestion des clients de la <b> plate-forme DZtenders </b> à partir de zéro, en utilisant : Angular.",
+			"title": "Développeuse d'applications web front-end, @RymServices"
+		},
+		"primary_button": "Engagez-moi",
+		"secondary_button": "Obtenir un CV",
+		"sub_title": "QUALIFICATION",
+		"title": "POURQUOI M'ENGAGER ?"
+	},
 	"header": {
 		"about_me": "À propos",
 		"contact": "Contact",

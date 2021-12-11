@@ -81,7 +81,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
 export function getLang(translate: TranslateService){
   let path =  window.location.pathname.split('/')[1]
   if(path === 'fr' || path === 'ar' || path === 'en'){
-    translate.setDefaultLang(path);
+    translate.use(path);
     (window as any)['_app_base'] = '/' + path;
   }else{
     const lang = navigator.language

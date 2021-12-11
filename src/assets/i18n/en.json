@@ -4,6 +4,28 @@
 		"sub_title": "Introduction",
 		"title": "About me"
 	},
+	"experience": {
+		"experience_1": {
+			"date": "January 2020 - May 2020",
+			"desc": "• Development of an employee management dashboard from scratch, using: CodeIgniter.",
+			"title": "Freelance Full stack web developer, @3IT"
+		},
+		"experience_2": {
+			"date": "June 2020 - September 2020",
+			"desc": "• development of a delivery system API from scratch, using: Laravel, RESTful API.",
+			"title": "Backend traineeship, @RymServices"
+		},
+		"experience_3": {
+			"date": "September 2020",
+			"desc": "• Maintenance, bug fixes and development of new modules on <b> FoodBeeper </b> dashboard, using: Angular.",
+			"desc_2": "• Development of a clients management dashboard of <b> DZtenders platform </b> from scratch, using: Angular.",
+			"title": "Frontend application web developer, @RymServices"
+		},
+		"primary_button": "Hire Me",
+		"secondary_button": "Get CV",
+		"sub_title": "QUALIFICATION",
+		"title": "WHY HIRE ME?"
+	},
 	"header": {
 		"about_me": "About",
 		"contact": "Contact",
