@@ -4,6 +4,10 @@
 		"sub_title": "Introduction",
 		"title": "À propos de moi"
 	},
+	"cantact_me": {
+		"button": "Contactez-moi",
+		"para": "AVEZ-VOUS UN PROJET EN TÊTE ?"
+	},
 	"experience": {
 		"experience_1": {
 			"date": "Janvier 2020 - Mai 2020",
