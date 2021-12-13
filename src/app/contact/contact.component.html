@@ -2,12 +2,12 @@
 <section id="contact-section" class="container-fluid animated-container p-0 p-sm-5 mt-5">
     <div class="row animated fadeInUp">
         <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center w-100">
-            <span class="heading_title" style="color: #ffffff; font-weight: bold; font-size: clamp(1rem, 1.5rem, 1.8rem);">CONTACT me</span>
+            <span class="heading_title" style="color: #ffffff; font-weight: bold; font-size: clamp(1rem, 1.5rem, 1.8rem);" translate>cantact.title</span>
         </div>
     </div>
     <div class="row animated fadeInUp">
         <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center w-100">
-            <span class="sub_heading_title text-center" style="color: #ffffff; text-transform: none; font-size: clamp(1rem, 1.2rem, 1.5rem);">Feel Free To Contact Me Any Time</span>
+            <span class="sub_heading_title text-center" style="color: #ffffff; text-transform: none; font-size: clamp(1rem, 1.2rem, 1.5rem);" translate>cantact.para</span>
         </div>
     </div>
     <div class="d-flex justify-content-center align-items-center mt-5 w-100">
@@ -26,44 +26,44 @@
                 <div class=" p-4 p-sm-5 bg-white text-center">
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                            <span class="sub_heading_title" style="color: #3d3ab2; font-size: clamp(1rem, 1rem, 1rem);">GET IN TOUCH</span>
+                            <span class="sub_heading_title" style="color: #3d3ab2; font-size: clamp(1rem, 1rem, 1rem);" translate>cantact.form.sub_title</span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                            <span class="heading_title" style="color: #3d3ab2; font-weight: bold; font-size: clamp(1rem, 1.6rem, 1.8rem);">CONTACT</span>
+                            <span class="heading_title" style="color: #3d3ab2; font-weight: bold; font-size: clamp(1rem, 1.6rem, 1.8rem);" translate>cantact.form.title</span>
                         </div>
                     </div>
-                    <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)">
+                    <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)" dir="auto">
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
-                                <input type="text" pInputText class="form-control form_input w-100" placeholder="Full Name" formControlName="name">
-                                <small *ngIf="contactForm.controls.name.invalid && contactForm.controls.name.touched  && contactForm.controls.name.errors['required'];" class="text-danger">The full name field is required.</small>
+                                <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.name.placeholder' | translate}}" formControlName="name">
+                                <small *ngIf="contactForm.controls.name.invalid && contactForm.controls.name.touched  && contactForm.controls.name.errors['required'];" class="text-danger" translate>cantact.form.name.error</small>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
-                                <input type="email" pInputText class="form-control form_input w-100" placeholder="Your Email" formControlName="_replyto">
-                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger">The email field is required.</small>
-                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.dirty && contactForm.controls._replyto.errors['email'];" class="text-danger">The email format is invalid.</small>
+                                <input type="email" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.email.placeholder' | translate}}" formControlName="_replyto">
+                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger" translate>cantact.form.email.error</small>
+                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.dirty && contactForm.controls._replyto.errors['email'];" class="text-danger" translate>cantact.form.email.error_format</small>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
-                                <input type="text" pInputText class="form-control form_input w-100" placeholder="Subject" formControlName="subject">
-                                <small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger">The subject field is required.</small>
+                                <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.subject.placeholder' | translate}}" formControlName="subject">
+                                <small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger" translate>cantact.form.subject.error</small>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
-                                <textarea class="form-control form_input w-100" pInputTextarea rows="5" placeholder="Message" formControlName="message"></textarea>
-                                <small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger">The message field is required.</small>
+                                <textarea class="form-control form_input w-100" pInputTextarea rows="5" placeholder="{{'cantact.form.message.placeholder' | translate}}" formControlName="message"></textarea>
+                                <small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger" translate>cantact.form.message.error</small>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <!-- <button class="btn p-btn rounded-pill" #btnSM> <span> <app-loader-checkmark [complete]="false"></app-loader-checkmark></span></button> -->
-                                <button class="btn p-btn rounded-pill" #btnSM>{{btnSM.disabled? "" : "Send message"}} <app-loader-checkmark *ngIf="btnSM.disabled" [complete]="complete"></app-loader-checkmark></button>
+                                <button class="btn p-btn rounded-pill" #btnSM>{{btnSM.disabled? "" : 'cantact.button' | translate}} <app-loader-checkmark *ngIf="btnSM.disabled" [complete]="complete"></app-loader-checkmark></button>
                             </div>
                         </div>
                     </form>
@@ -72,4 +72,4 @@
         </div>
     </div>
 </section>
-<p-toast key="KeyContact" [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>
+<p-toast  dir="auto" key="KeyContact" [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>

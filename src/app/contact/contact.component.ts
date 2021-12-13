@@ -1,7 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
+import { throwError } from 'rxjs';
 
 @Component({
   selector: 'app-contact',
@@ -24,7 +26,8 @@ export class ContactComponent implements OnInit {
 
   constructor(
     private http: HttpClient,
-    private messageService: MessageService
+    private messageService: MessageService,
+    private translate: TranslateService
   ) { }
 
   ngOnInit(): void {
@@ -43,8 +46,8 @@ export class ContactComponent implements OnInit {
   
       this.http.post("https://formspree.io/f/mgergyrb", data).subscribe(
         res =>{
-          this.messageService.add({key: 'KeyContact', severity:'success', summary:'Message', detail:'Envoyé avec Succès'});
           this.complete = true;
+          this.messageService.add({key: 'KeyContact', severity:'success', summary:this.translate.instant('cantact.form.feedback.success_summary'), detail: this.translate.instant('cantact.form.feedback.success') });
           setTimeout(() => {
             btn.disabled = false;
           }, 1000);
@@ -53,8 +56,7 @@ export class ContactComponent implements OnInit {
         err =>{
           this.complete = false;
           btn.disabled = false;
-          this.messageService.add({key: 'KeyContact', severity:'error', summary:'Error', detail: JSON.stringify(err)});
-          console.log("err")
+          this.handleErrorFunction(err);
         }
       )
     }else{
@@ -66,5 +68,50 @@ export class ContactComponent implements OnInit {
       btn.disabled = false;
     }
   }
+
+  handleErrorFunction(error: any) {
+    console.log(" handleErrorFunction ", error?.status, error);
+    this.messageService.clear();
+    switch (error.status) {
+      case 0: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: this.translate.instant('cantact.form.feedback.error_0')});
+        break;
+      }
+      case 400:
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: JSON.stringify(error)});
+        break;
+      case 401: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: this.translate.instant('cantact.form.feedback.error_401')});
+        break;
+      }
+      case 403: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: this.translate.instant('cantact.form.feedback.error_403')});
+        break;
+      }
+      case 404: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: this.translate.instant('cantact.form.feedback.error_404')});
+        break;
+      }
+      case 422: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: JSON.stringify(error)});
+        break;
+      }
+      case 500: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary_fatal'), detail: this.translate.instant('cantact.form.feedback.error_500')});
+        break;
+      }
+      case 502: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary_fatal'), detail: this.translate.instant('cantact.form.feedback.error_500')});
+        break;
+      }
+      case 504: {
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary_fatal'), detail: this.translate.instant('cantact.form.feedback.error_500')});
+        break;
+      }
+      default:
+        this.messageService.add({key: 'KeyContact', severity:'error', summary: this.translate.instant('cantact.form.feedback.error_summary'), detail: this.translate.instant('cantact.form.feedback.error')});
+        break;
+    }
+  };
 
 }

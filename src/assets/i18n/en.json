@@ -4,6 +4,44 @@
 		"sub_title": "Introduction",
 		"title": "About me"
 	},
+	"cantact": {
+		"button": "Send message",
+		"form": {
+			"email": {
+				"error": "The email field is required.",
+				"error_format": "The email format is invalid.",
+				"placeholder": "Your Email"
+			},
+			"feedback": {
+				"error": "Oops! somthing went wrong, try to refresh the page.",
+				"error_0": "Can not reach the server!",
+				"error_401": "Not authorized",
+				"error_403": "Forbidden",
+				"error_404": "Not found",
+				"error_500": "Server error",
+				"error_summary": "Error",
+				"error_summary_fatal": "Fatal",
+				"success": "Sent successfully",
+				"success_summary": "Message"
+			},
+			"message": {
+				"error": "The message field is required.",
+				"placeholder": "Message"
+			},
+			"name": {
+				"error": "The full name field is required.",
+				"placeholder": "Your Full Name"
+			},
+			"sub_title": "GET IN TOUCH",
+			"subject": {
+				"error": "The subject field is required.",
+				"placeholder": "Subject"
+			},
+			"title": "CONTACT"
+		},
+		"para": "Feel Free To Contact Me Any Time",
+		"title": "CONTACT ME"
+	},
 	"cantact_me": {
 		"button": "Contact With Me",
 		"para": "HAVE ANY PROJECT IN MIND?"

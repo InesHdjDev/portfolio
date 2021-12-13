@@ -4,6 +4,44 @@
 		"sub_title": "Introduction",
 		"title": "À propos de moi"
 	},
+	"cantact": {
+		"button": "Envoyer le message",
+		"form": {
+			"email": {
+				"error": "Le champ émail est obligatoire.",
+				"error_format": "Le format de l'e-mail n'est pas valide.",
+				"placeholder": "Votre email"
+			},
+			"feedback": {
+				"error": "Oups! Quelque chose s'est mal passé, essayez d'actualiser la page.",
+				"error_0": "Impossible d'atteindre le serveur !",
+				"error_401": "Non autorisé",
+				"error_403": "Interdit",
+				"error_404": "Introuvable",
+				"error_500": "Erreur du serveur",
+				"error_summary": "Erreur",
+				"error_summary_fatal": "Fatal",
+				"success": "Envoyé avec Succès",
+				"success_summary": "Message"
+			},
+			"message": {
+				"error": "Le champ message est obligatoire.",
+				"placeholder": "Message"
+			},
+			"name": {
+				"error": "Le champ nom complet est obligatoire.",
+				"placeholder": "Votre nom complet"
+			},
+			"sub_title": "Entrer en contact",
+			"subject": {
+				"error": "Le champ du sujet est obligatoire.",
+				"placeholder": "Sujet"
+			},
+			"title": "Contact"
+		},
+		"para": "N'hésitez pas à me contacter à tout moment",
+		"title": "Contactez moi"
+	},
 	"cantact_me": {
 		"button": "Contactez-moi",
 		"para": "AVEZ-VOUS UN PROJET EN TÊTE ?"
