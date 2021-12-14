@@ -4,6 +4,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { throwError } from 'rxjs';
+import { GlobalService } from '../services/global.service';
 
 @Component({
   selector: 'app-contact',
@@ -27,7 +28,8 @@ export class ContactComponent implements OnInit {
   constructor(
     private http: HttpClient,
     private messageService: MessageService,
-    private translate: TranslateService
+    public translate: TranslateService,
+    public global: GlobalService
   ) { }
 
   ngOnInit(): void {

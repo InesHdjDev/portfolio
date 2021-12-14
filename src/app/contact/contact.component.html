@@ -38,26 +38,26 @@
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.name.placeholder' | translate}}" formControlName="name">
-                                <small *ngIf="contactForm.controls.name.invalid && contactForm.controls.name.touched  && contactForm.controls.name.errors['required'];" class="text-danger" translate>cantact.form.name.error</small>
+                                <div [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''"><small *ngIf="contactForm.controls.name.invalid && contactForm.controls.name.touched  && contactForm.controls.name.errors['required'];" class="text-danger text-end" translate>cantact.form.name.error</small></div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="email" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.email.placeholder' | translate}}" formControlName="_replyto">
-                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger" translate>cantact.form.email.error</small>
-                                <small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.dirty && contactForm.controls._replyto.errors['email'];" class="text-danger" translate>cantact.form.email.error_format</small>
+                                <div [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''"><small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger" translate>cantact.form.email.error</small></div>
+                                <div [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''"><small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.dirty && contactForm.controls._replyto.errors['email'];" class="text-danger" translate>cantact.form.email.error_format</small></div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.subject.placeholder' | translate}}" formControlName="subject">
-                                <small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger" translate>cantact.form.subject.error</small>
+                                <div [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''"><small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger" translate>cantact.form.subject.error</small></div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <textarea class="form-control form_input w-100" pInputTextarea rows="5" placeholder="{{'cantact.form.message.placeholder' | translate}}" formControlName="message"></textarea>
-                                <small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger" translate>cantact.form.message.error</small>
+                                <div [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''"><small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger" translate>cantact.form.message.error</small></div>
                             </div>
                         </div>
                         <div class="row mt-4">
