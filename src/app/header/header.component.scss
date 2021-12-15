@@ -18,3 +18,7 @@
 .customize_option:hover{
     background-color: red;
 }
+
+:host ::ng-deep .dropdown-item:active{
+    background-color: #883cae;
+}
