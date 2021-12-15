@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 650"
+   version="1.1"
+   id="svg358"
+   sodipodi:docname="avatar_pivot.svg"
+   width="500"
+   height="650"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview360"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.564"
+     inkscape:cx="461.31714"
+     inkscape:cy="542.19949"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg358" />
+  <defs
+     id="defs77">
+    <clipPath
+       id="freepik--clip-path--inject-81">
+      <rect
+         x="69.07"
+         y="49.139999"
+         width="316.67999"
+         height="182.00999"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="rect2" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-2--inject-81">
+      <rect
+         x="88.57"
+         y="54.009998"
+         width="27.540001"
+         height="8.6800003"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="rect5" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-3--inject-81">
+      <rect
+         x="351.57001"
+         y="54.009998"
+         width="8.6800003"
+         height="8.6800003"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="rect8" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-4--inject-81">
+      <rect
+         x="362.26999"
+         y="54.009998"
+         width="8.6800003"
+         height="8.6800003"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="rect11" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-5--inject-81">
+      <rect
+         x="176.91"
+         y="332.53"
+         width="11.86"
+         height="90.230003"
+         transform="rotate(180,182.84,377.645)"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="rect14" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-6--inject-81">
+      <path
+         d="M 149.69,412.21 H 216 a 8.73,8.73 0 0 1 8.73,8.73 v 1.82 H 141 v -1.82 a 8.73,8.73 0 0 1 8.69,-8.73 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path17" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-7--inject-81">
+      <rect
+         x="141.44"
+         y="287.41"
+         width="11.86"
+         height="31.75"
+         transform="rotate(180,147.37,303.29)"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="rect20" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-8--inject-81">
+      <path
+         d="m 136.59,324.65 a 371.76,371.76 0 0 0 92.49,0 4.63,4.63 0 0 0 4,-5.21 l -0.75,-4.78 a 4.63,4.63 0 0 0 -5.24,-3.82 360.47,360.47 0 0 1 -88.56,0 4.63,4.63 0 0 0 -5.24,3.82 l -0.75,4.78 a 4.63,4.63 0 0 0 4.05,5.21 z"
+         style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path23" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-9--inject-81">
+      <path
+         d="M 136.87,295.93 164.16,292 c 6.93,-1 11.51,-7.12 10.43,-13.49 A 209.12,209.12 0 0 1 172.07,230 12,12 0 0 0 161.53,217.53 l -22.69,-3.25 c -6.52,-0.93 -12.89,4 -14,11.19 a 246,246 0 0 0 -2.11,58.2 c 0.63,7.66 7.27,13.24 14.14,12.26 z"
+         style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path26" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-10--inject-81">
+      <path
+         d="m 248.43,388.39 c 1.72,1.49 2.41,4.55 2.41,4.55 0,0 8.86,4.6 9,0.8 0.11,-2.57 2.65,-3.66 4.27,-4.1 l 13.39,13.5 c 0,0 8.53,4.16 9.25,7.9 0.72,3.74 -3.34,6.57 -13.46,3.74 -10.12,-2.83 -11.51,-6.25 -15.32,-7.91 -3.81,-1.66 -14.33,-2.84 -13.87,-7.77 0.36,-3.49 2.9,-8.23 4.33,-10.71 z"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path29" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-11--inject-81">
+      <path
+         d="m 178.32,286.36 c 0,0 75,-5 78.38,5.56 3.38,10.56 5,44.48 5.2,57.93 0.2,13.45 -0.9,30.49 -0.9,30.49 a 23.92,23.92 0 0 1 -13.81,0 c 0,0 -3.29,-19.55 -5.68,-29.06 -2.39,-9.51 -4.9,-22.17 -3.46,-42.2 0,0 -71.83,10.82 -72.24,-1.74 -0.41,-12.56 12.51,-20.98 12.51,-20.98 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path32" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-12--inject-81">
+      <path
+         d="m 178.32,286.36 c 0,0 75,-5 78.38,5.56 3.38,10.56 5,44.48 5.2,57.93 0.2,13.45 -0.9,30.49 -0.9,30.49 a 23.92,23.92 0 0 1 -13.81,0 c 0,0 -3.29,-19.55 -5.68,-29.06 -2.39,-9.51 -4.9,-22.17 -3.46,-42.2 0,0 -71.83,10.82 -72.24,-1.74 -0.41,-12.56 12.51,-20.98 12.51,-20.98 z"
+         style="opacity:0.5"
+         id="path35" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-13--inject-81">
+      <path
+         d="m 262.74,376.05 -0.51,5.07 c 0,0 -8.58,4.6 -16.12,0.34 l -1.58,-5 c 0,0 5.11,3.54 18.21,-0.41 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path38" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-14--inject-81">
+      <path
+         d="m 173.52,388.1 c -0.77,-4.08 -5.12,-12.6 -0.77,-15 a 39.75,39.75 0 0 1 9,-3.17 8.65,8.65 0 0 1 -1.39,3.17 c 0,0 -0.17,3.07 1,4.43 1.17,1.36 4.26,-1.7 8.69,0 2.05,0.79 2.82,1.79 3.06,2.64 L 193,382 v 0 l -1.71,20.2 c 0,0 3.91,11.36 1.21,14.06 -2.7,2.7 -13.57,-1 -16.89,-11 -3.32,-10 -1.33,-13.07 -2.09,-17.16 z"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path41" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-15--inject-81">
+      <path
+         d="m 152.5,289.18 c 0,0 -10.63,21.26 2.95,23.14 13.58,1.88 55.16,-0.54 55.16,-0.54 a 210.54,210.54 0 0 0 -13.81,26.05 c -5.38,12.74 -10.8,25.83 -10.8,25.83 0,0 2.34,6.28 11.84,7.53 0,0 7.71,-12 24.57,-30.85 16.86,-18.85 21.53,-37.66 17.94,-44.12 -3.59,-6.46 -22.24,-10 -52.37,-11.34 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path44" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-16--inject-81">
+      <path
+         d="m 152.5,289.18 c 0,0 -10.63,21.26 2.95,23.14 13.58,1.88 55.16,-0.54 55.16,-0.54 a 210.54,210.54 0 0 0 -13.81,26.05 c -5.38,12.74 -10.8,25.83 -10.8,25.83 0,0 2.34,6.28 11.84,7.53 0,0 7.71,-12 24.57,-30.85 16.86,-18.85 21.53,-37.66 17.94,-44.12 -3.59,-6.46 -22.24,-10 -52.37,-11.34 z"
+         style="opacity:0.5"
+         id="path47" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-17--inject-81">
+      <path
+         d="m 201.1,369.4 -3.23,3.94 c 0,0 -9.68,-0.89 -13.63,-8.6 l 1.44,-5 c 0,0 2.32,5.71 15.42,9.66 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path50" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-18--inject-81">
+      <path
+         d="m 214.72,270.44 c 0,0 -5.63,-3.65 -10.95,2.2 l -3.32,-3.9 c 0,0 4,-3.54 8.39,-3.66 4.39,-0.12 5.88,1.46 5.88,1.46 z"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path53" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-19--inject-81">
+      <path
+         d="m 202.4,250.68 c -0.25,-11.71 2.93,-26.11 -3.42,-33.92 0,0 0.25,-12.2 -9.27,-16.84 -9.52,-4.64 -33.19,-6.83 -39.29,-1.95 -5.13,4.11 1.94,45 3,75.45 0.19,5.75 -1.74,11.13 -2,15.81 0,0 1.95,3.66 11.71,0 9.76,-3.66 37.82,-4.75 37.82,-4.75 0,0 1.69,-22.09 1.45,-33.8 z"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path56" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-20--inject-81">
+      <path
+         d="m 188,199.17 c 1.54,3 3.84,8.18 3,10.19 -1.3,2.93 -4.56,-3.58 -6.35,-3.26 -1.79,0.32 -3.25,4.45 -6.67,4 -3.15,-0.4 -7.83,-9.86 -15.06,-14.89 8.4,-0.14 18.76,1.47 25.08,3.96 z"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path59" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-21--inject-81">
+      <path
+         d="m 191.54,278.33 c 0,0 4.66,2.16 6.18,2.93 0.49,0.25 2.73,1.1 1.1,1.87 -1.4,0.66 -5.82,-1.58 -5.82,-1.58 l -4.27,-0.86 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path62" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-22--inject-81">
+      <path
+         d="m 175.75,267 c 0,0 -4.88,1.59 -7.93,8.91 l -4.51,-1.35 c 0,0 0.85,-6.58 9.51,-11.34 z"
+         style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path65" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-23--inject-81">
+      <path
+         d="m 185.06,199.14 c 1.14,1.39 4.24,5.83 -2.75,5.66 -6.99,-0.17 -17.57,-9.58 -17.57,-9.58 0,0 4.23,-1.64 7,-8.15 1.21,-2.84 3.91,-11.71 3.91,-11.71 l 10.7,11.55 -3.35,9.27 c 0,0 1.6,2.4 2.06,2.96 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path68" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-24--inject-81">
+      <path
+         d="m 210.74,285.82 h 37.34 a 3.66,3.66 0 0 0 3.19,-1.88 l 19.15,-34.58 a 1.42,1.42 0 0 0 -1.24,-2.1 h -37.79 a 4.31,4.31 0 0 0 -3.74,2.2 L 209.08,283 a 1.9,1.9 0 0 0 1.66,2.82 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path71" />
+    </clipPath>
+    <clipPath
+       id="freepik--clip-path-25--inject-81">
+      <path
+         d="m 178.24,285.82 h 28.12 a 1.16,1.16 0 0 0 1.16,-1.16 v -1.53 h -32 a 2.68,2.68 0 0 0 2.72,2.69 z"
+         style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+         id="path74" />
+    </clipPath>
+  </defs>
+  <g
+     id="freepik--Character--inject-81"
+     transform="matrix(2.9952578,0,0,1.9112746,-361.66547,-158.20211)">
+    <rect
+       x="176.91"
+       y="332.53"
+       width="11.86"
+       height="90.230003"
+       transform="rotate(180,182.84,377.645)"
+       style="fill:#ffffff"
+       id="rect79" />
+    <g
+       clip-path="url(#freepik--clip-path-5--inject-81)"
+       id="g83">
+      <rect
+         x="172.23"
+         y="331.70001"
+         width="9.3500004"
+         height="84.599998"
+         transform="rotate(180,176.905,374)"
+         style="opacity:0.2"
+         id="rect81" />
+    </g>
+    <rect
+       x="176.91"
+       y="332.53"
+       width="11.86"
+       height="90.230003"
+       transform="rotate(180,182.84,377.645)"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="rect85" />
+    <path
+       d="M 149.69,412.21 H 216 a 8.73,8.73 0 0 1 8.73,8.73 v 1.82 H 141 v -1.82 a 8.73,8.73 0 0 1 8.69,-8.73 z"
+       style="fill:#ffffff"
+       id="path87" />
+    <g
+       clip-path="url(#freepik--clip-path-6--inject-81)"
+       id="g91">
+      <path
+         d="m 152.24,414.79 h 61.2 a 8.05,8.05 0 0 1 8.06,8 v 1.68 h -77.32 v -1.68 a 8.05,8.05 0 0 1 8.06,-8 z"
+         style="opacity:0.2"
+         id="path89" />
+    </g>
+    <path
+       d="M 149.69,412.21 H 216 a 8.73,8.73 0 0 1 8.73,8.73 v 1.82 H 141 v -1.82 a 8.73,8.73 0 0 1 8.69,-8.73 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path93" />
+    <path
+       d="m 180.16,422.76 h 5.36 v -7.87 a 2.68,2.68 0 0 0 -2.68,-2.68 v 0 a 2.68,2.68 0 0 0 -2.68,2.68 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path95" />
+    <polygon
+       points="175.77,319.4 175.77,333.54 182.84,333.54 189.91,333.54 189.91,319.4 "
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="polygon97" />
+    <rect
+       x="141.44"
+       y="287.41"
+       width="11.86"
+       height="31.75"
+       transform="rotate(180,147.37,303.29)"
+       style="fill:#ffffff"
+       id="rect99" />
+    <g
+       clip-path="url(#freepik--clip-path-7--inject-81)"
+       id="g103">
+      <rect
+         x="136.36"
+         y="290.01999"
+         width="9.3500004"
+         height="32.450001"
+         transform="rotate(180,141.03,306.245)"
+         style="opacity:0.2"
+         id="rect101" />
+    </g>
+    <rect
+       x="141.44"
+       y="287.41"
+       width="11.86"
+       height="31.75"
+       transform="rotate(180,147.37,303.29)"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="rect105" />
+    <path
+       d="m 136.59,324.65 a 371.76,371.76 0 0 0 92.49,0 4.63,4.63 0 0 0 4,-5.21 l -0.75,-4.78 a 4.63,4.63 0 0 0 -5.24,-3.82 360.47,360.47 0 0 1 -88.56,0 4.63,4.63 0 0 0 -5.24,3.82 l -0.75,4.78 a 4.63,4.63 0 0 0 4.05,5.21 z"
+       style="fill:#263238"
+       id="path107" />
+    <g
+       clip-path="url(#freepik--clip-path-8--inject-81)"
+       id="g111">
+      <path
+         d="m 138.56,310.84 a 360.47,360.47 0 0 0 88.56,0 4.63,4.63 0 0 1 5.24,3.82 c 0.24,1.52 0.38,2.44 0.58,3.71 a 510.77,510.77 0 0 1 -91.55,-3.17 6.51,6.51 0 0 1 -5.2,-4.06 4.6,4.6 0 0 1 2.37,-0.3 z"
+         style="opacity:0.2"
+         id="path109" />
+    </g>
+    <path
+       d="m 136.59,324.65 a 371.76,371.76 0 0 0 92.49,0 4.63,4.63 0 0 0 4,-5.21 l -0.75,-4.78 a 4.63,4.63 0 0 0 -5.24,-3.82 360.47,360.47 0 0 1 -88.56,0 4.63,4.63 0 0 0 -5.24,3.82 l -0.75,4.78 a 4.63,4.63 0 0 0 4.05,5.21 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path113" />
+    <path
+       d="M 136.87,295.93 164.16,292 c 6.93,-1 11.51,-7.12 10.43,-13.49 A 209.12,209.12 0 0 1 172.07,230 12,12 0 0 0 161.53,217.53 l -22.69,-3.25 c -6.52,-0.93 -12.89,4 -14,11.19 a 246,246 0 0 0 -2.11,58.2 c 0.63,7.66 7.27,13.24 14.14,12.26 z"
+       style="fill:#263238"
+       id="path115" />
+    <g
+       clip-path="url(#freepik--clip-path-9--inject-81)"
+       id="g119">
+      <path
+         d="m 136.7,231.7 c 1.11,-7.21 7.47,-12.13 14,-11.19 l 19.76,2.83 a 11.35,11.35 0 0 1 1.62,6.61 209.12,209.12 0 0 0 2.52,48.58 c 1.08,6.37 -3.5,12.49 -10.43,13.49 l -27.29,3.91 h -0.34 a 13.92,13.92 0 0 1 -1.93,-6.05 245.39,245.39 0 0 1 2.09,-58.18 z"
+         style="opacity:0.2"
+         id="path117" />
+    </g>
+    <path
+       d="M 136.87,295.93 164.16,292 c 6.93,-1 11.51,-7.12 10.43,-13.49 A 209.12,209.12 0 0 1 172.07,230 12,12 0 0 0 161.53,217.53 l -22.69,-3.25 c -6.52,-0.93 -12.89,4 -14,11.19 a 246,246 0 0 0 -2.11,58.2 c 0.63,7.66 7.27,13.24 14.14,12.26 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path121" />
+    <path
+       d="m 260.08,371.81 v 13.7 l 17.48,17.63 c 0,0 8.53,4.16 9.25,7.9 0.72,3.74 -3.34,6.57 -13.46,3.74 -10.12,-2.83 -11.51,-6.25 -15.32,-7.91 -3.81,-1.66 -14.33,-2.84 -13.87,-7.77 0.46,-4.93 5.32,-12.39 5.32,-12.39 l -0.61,-10.88 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path123" />
+    <path
+       d="m 248.43,388.39 c 1.72,1.49 2.41,4.55 2.41,4.55 0,0 8.86,4.6 9,0.8 0.11,-2.57 2.65,-3.66 4.27,-4.1 l 13.39,13.5 c 0,0 8.53,4.16 9.25,7.9 0.72,3.74 -3.34,6.57 -13.46,3.74 -10.12,-2.83 -11.51,-6.25 -15.32,-7.91 -3.81,-1.66 -14.33,-2.84 -13.87,-7.77 0.36,-3.49 2.9,-8.23 4.33,-10.71 z"
+       style="fill:#afb23a"
+       id="path125" />
+    <g
+       clip-path="url(#freepik--clip-path-10--inject-81)"
+       id="g129">
+      <path
+         d="m 248.43,388.39 c 1.72,1.49 2.41,4.55 2.41,4.55 0,0 8.86,4.6 9,0.8 0.11,-2.57 2.65,-3.66 4.27,-4.1 l 13.39,13.5 c 0,0 8.53,4.16 9.25,7.9 0.72,3.74 -3.34,6.57 -13.46,3.74 -10.12,-2.83 -11.51,-6.25 -15.32,-7.91 -3.81,-1.66 -14.33,-2.84 -13.87,-7.77 0.36,-3.49 2.9,-8.23 4.33,-10.71 z"
+         style="opacity:0.3"
+         id="path127" />
+    </g>
+    <path
+       d="m 248.43,388.39 c 1.72,1.49 2.41,4.55 2.41,4.55 0,0 8.86,4.6 9,0.8 0.11,-2.57 2.65,-3.66 4.27,-4.1 l 13.39,13.5 c 0,0 8.53,4.16 9.25,7.9 0.72,3.74 -3.34,6.57 -13.46,3.74 -10.12,-2.83 -11.51,-6.25 -15.32,-7.91 -3.81,-1.66 -14.33,-2.84 -13.87,-7.77 0.36,-3.49 2.9,-8.23 4.33,-10.71 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path131" />
+    <path
+       d="m 244.13,399.1 c 0,-0.29 0.07,-0.59 0.13,-0.9 a 20.29,20.29 0 0 0 3,2.58 c 4.77,3.41 12.09,2.73 14.84,5.28 a 23.65,23.65 0 0 0 6.8,4.07 c 2.54,-2 6.64,0.7 11.58,1.28 a 8.52,8.52 0 0 0 5.93,-1.36 3.63,3.63 0 0 1 0.37,1 c 0.72,3.74 -3.34,6.57 -13.46,3.74 -10.12,-2.83 -11.51,-6.25 -15.32,-7.91 -3.81,-1.66 -14.33,-2.88 -13.87,-7.78 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path133" />
+    <path
+       d="m 286.86,412.71 c 0,0 -2.3,3.24 -15.07,-1.3"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path135" />
+    <path
+       d="m 178.32,286.36 c 0,0 75,-5 78.38,5.56 3.38,10.56 5,44.48 5.2,57.93 0.2,13.45 -0.9,30.49 -0.9,30.49 a 23.92,23.92 0 0 1 -13.81,0 c 0,0 -3.29,-19.55 -5.68,-29.06 -2.39,-9.51 -4.9,-22.17 -3.46,-42.2 0,0 -71.83,10.82 -72.24,-1.74 -0.41,-12.56 12.51,-20.98 12.51,-20.98 z"
+       style="fill:#ffffff"
+       id="path137" />
+    <g
+       clip-path="url(#freepik--clip-path-11--inject-81)"
+       id="g145">
+      <path
+         d="m 178.32,286.36 c 0,0 75,-5 78.38,5.56 3.38,10.56 5,44.48 5.2,57.93 0.2,13.45 -0.9,30.49 -0.9,30.49 a 23.92,23.92 0 0 1 -13.81,0 c 0,0 -3.29,-19.55 -5.68,-29.06 -2.39,-9.51 -4.9,-22.17 -3.46,-42.2 0,0 -71.83,10.82 -72.24,-1.74 -0.41,-12.56 12.51,-20.98 12.51,-20.98 z"
+         style="opacity:0.5"
+         id="path139" />
+      <g
+         clip-path="url(#freepik--clip-path-12--inject-81)"
+         id="g143">
+        <path
+           d="m 253.64,379.66 c -4.52,-1 -8.23,-20.71 -10.35,-41.33 -2.12,-20.62 5.65,-31.16 1.74,-33.82 -3.91,-2.66 -37.3,2.93 -56.64,3.91 -10.87,0.55 -18.11,-2 -22.38,-4.36 a 18.6,18.6 0 0 0 -0.2,3.28 c 0.41,12.56 72.24,1.74 72.24,1.74 -1.44,20 1.07,32.7 3.46,42.2 2.39,9.5 5.68,29.06 5.68,29.06 a 19.66,19.66 0 0 0 3.53,0.81 c 2.69,-0.69 4.06,-1.24 2.92,-1.49 z"
+           style="opacity:0.3"
+           id="path141" />
+      </g>
+    </g>
+    <path
+       d="m 178.32,286.36 c 0,0 75,-5 78.38,5.56 3.38,10.56 5,44.48 5.2,57.93 0.2,13.45 -0.9,30.49 -0.9,30.49 a 23.92,23.92 0 0 1 -13.81,0 c 0,0 -3.29,-19.55 -5.68,-29.06 -2.39,-9.51 -4.9,-22.17 -3.46,-42.2 0,0 -71.83,10.82 -72.24,-1.74 -0.41,-12.56 12.51,-20.98 12.51,-20.98 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path147" />
+    <path
+       d="m 246.1,302.23 c 0,0 -0.77,3.48 -5.62,6.85"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path149" />
+    <path
+       d="m 262.74,376.05 -0.51,5.07 c 0,0 -8.58,4.6 -16.12,0.34 l -1.58,-5 c 0,0 5.11,3.54 18.21,-0.41 z"
+       style="fill:#ffffff"
+       id="path151" />
+    <g
+       clip-path="url(#freepik--clip-path-13--inject-81)"
+       id="g155">
+      <path
+         d="m 262.74,376.05 -0.51,5.07 c 0,0 -8.58,4.6 -16.12,0.34 l -1.58,-5 c 0,0 5.11,3.54 18.21,-0.41 z"
+         style="opacity:0.3"
+         id="path153" />
+    </g>
+    <path
+       d="m 262.74,376.05 -0.51,5.07 c 0,0 -8.58,4.6 -16.12,0.34 l -1.58,-5 c 0,0 5.11,3.54 18.21,-0.41 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path157" />
+    <path
+       d="m 198.31,367.66 -4.84,8.18 -2.23,26.32 c 0,0 3.91,11.36 1.21,14.06 -2.7,2.7 -13.57,-1 -16.89,-11 -3.32,-10 -1.28,-13 -2,-17.13 -0.72,-4.13 -5.12,-12.6 -0.77,-15 4.35,-2.4 11.21,-3.64 11.21,-3.64 l 3.84,-8.27 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path159" />
+    <path
+       d="m 173.52,388.1 c -0.77,-4.08 -5.12,-12.6 -0.77,-15 a 39.75,39.75 0 0 1 9,-3.17 8.65,8.65 0 0 1 -1.39,3.17 c 0,0 -0.17,3.07 1,4.43 1.17,1.36 4.26,-1.7 8.69,0 2.05,0.79 2.82,1.79 3.06,2.64 L 193,382 v 0 l -1.71,20.2 c 0,0 3.91,11.36 1.21,14.06 -2.7,2.7 -13.57,-1 -16.89,-11 -3.32,-10 -1.33,-13.07 -2.09,-17.16 z"
+       style="fill:#afb23a"
+       id="path161" />
+    <g
+       clip-path="url(#freepik--clip-path-14--inject-81)"
+       id="g165">
+      <path
+         d="m 173.52,388.1 c -0.77,-4.08 -5.12,-12.6 -0.77,-15 a 39.75,39.75 0 0 1 9,-3.17 8.65,8.65 0 0 1 -1.39,3.17 c 0,0 -0.17,3.07 1,4.43 1.17,1.36 4.26,-1.7 8.69,0 2.05,0.79 2.82,1.79 3.06,2.64 L 193,382 v 0 l -1.71,20.2 c 0,0 3.91,11.36 1.21,14.06 -2.7,2.7 -13.57,-1 -16.89,-11 -3.32,-10 -1.33,-13.07 -2.09,-17.16 z"
+         style="opacity:0.3"
+         id="path163" />
+    </g>
+    <path
+       d="m 173.52,388.1 c -0.77,-4.08 -5.12,-12.6 -0.77,-15 a 39.75,39.75 0 0 1 9,-3.17 8.65,8.65 0 0 1 -1.39,3.17 c 0,0 -0.17,3.07 1,4.43 1.17,1.36 4.26,-1.7 8.69,0 2.05,0.79 2.82,1.79 3.06,2.64 L 193,382 v 0 l -1.71,20.2 c 0,0 3.91,11.36 1.21,14.06 -2.7,2.7 -13.57,-1 -16.89,-11 -3.32,-10 -1.33,-13.07 -2.09,-17.16 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path167" />
+    <path
+       d="m 175.56,405.23 c -3.32,-10 -1.28,-13 -2,-17.13 -0.72,-4.13 -5.12,-12.6 -0.77,-15 0.21,-0.12 0.44,-0.22 0.66,-0.33 a 21.77,21.77 0 0 0 -0.06,5.1 c 0.59,4.77 3.23,6 3.57,16.36 0.34,10.36 3.24,11.24 3.24,11.24 0,0 6.82,2.9 10.22,6.48 1.35,1.42 2.32,1.54 3,1.19 a 4.56,4.56 0 0 1 -0.94,3.07 c -2.72,2.7 -13.6,-1.01 -16.92,-10.98 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path169" />
+    <path
+       d="m 190.89,414.94 c 0,0 -4.6,0.13 -11.5,-7.54"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path171" />
+    <path
+       d="m 152.5,289.18 c 0,0 -10.63,21.26 2.95,23.14 13.58,1.88 55.16,-0.54 55.16,-0.54 a 210.54,210.54 0 0 0 -13.81,26.05 c -5.38,12.74 -10.8,25.83 -10.8,25.83 0,0 2.34,6.28 11.84,7.53 0,0 7.71,-12 24.57,-30.85 16.86,-18.85 21.53,-37.66 17.94,-44.12 -3.59,-6.46 -22.24,-10 -52.37,-11.34 z"
+       style="fill:#ffffff"
+       id="path173" />
+    <g
+       clip-path="url(#freepik--clip-path-15--inject-81)"
+       id="g181">
+      <path
+         d="m 152.5,289.18 c 0,0 -10.63,21.26 2.95,23.14 13.58,1.88 55.16,-0.54 55.16,-0.54 a 210.54,210.54 0 0 0 -13.81,26.05 c -5.38,12.74 -10.8,25.83 -10.8,25.83 0,0 2.34,6.28 11.84,7.53 0,0 7.71,-12 24.57,-30.85 16.86,-18.85 21.53,-37.66 17.94,-44.12 -3.59,-6.46 -22.24,-10 -52.37,-11.34 z"
+         style="opacity:0.5"
+         id="path175" />
+      <g
+         clip-path="url(#freepik--clip-path-16--inject-81)"
+         id="g179">
+        <path
+           d="m 218.15,305.91 c -4.21,-5.23 -42.78,3.43 -57,2.51 -7.5,-0.48 -10.65,-5.45 -11.95,-10 -1.38,6 -1.24,12.89 6.23,13.93 13.59,1.88 55.16,-0.54 55.16,-0.54 a 210.54,210.54 0 0 0 -13.81,26.05 c -5.36,12.71 -10.78,25.8 -10.78,25.8 a 11.06,11.06 0 0 0 3.53,4.29 c -3.78,-11.4 32.71,-56.95 28.62,-62.04 z"
+           style="opacity:0.3"
+           id="path177" />
+      </g>
+    </g>
+    <path
+       d="m 152.5,289.18 c 0,0 -10.63,21.26 2.95,23.14 13.58,1.88 55.16,-0.54 55.16,-0.54 a 210.54,210.54 0 0 0 -13.81,26.05 c -5.38,12.74 -10.8,25.83 -10.8,25.83 0,0 2.34,6.28 11.84,7.53 0,0 7.71,-12 24.57,-30.85 16.86,-18.85 21.53,-37.66 17.94,-44.12 -3.59,-6.46 -22.24,-10 -52.37,-11.34 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path183" />
+    <path
+       d="m 213.86,308.42 c 1,-0.85 3.1,-2.52 8.58,-5"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path185" />
+    <path
+       d="m 219,300.53 c 0,0 -8.75,7.17 -7,8.25"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path187" />
+    <path
+       d="m 201.1,369.4 -3.23,3.94 c 0,0 -9.68,-0.89 -13.63,-8.6 l 1.44,-5 c 0,0 2.32,5.71 15.42,9.66 z"
+       style="fill:#ffffff"
+       id="path189" />
+    <g
+       clip-path="url(#freepik--clip-path-17--inject-81)"
+       id="g193">
+      <path
+         d="m 201.1,369.4 -3.23,3.94 c 0,0 -9.68,-0.89 -13.63,-8.6 l 1.44,-5 c 0,0 2.32,5.71 15.42,9.66 z"
+         style="opacity:0.3"
+         id="path191" />
+    </g>
+    <path
+       d="m 201.1,369.4 -3.23,3.94 c 0,0 -9.68,-0.89 -13.63,-8.6 l 1.44,-5 c 0,0 2.32,5.71 15.42,9.66 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path195" />
+    <path
+       d="m 213.25,267.69 1.47,8.47 -6.83,2.17 -5.25,-10.08 c 0,0 6.09,-5.25 10.61,-0.56 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path197" />
+    <path
+       d="m 225.17,281.72 c 1,1 3.41,1.08 1.79,-1.09 a 11.6,11.6 0 0 0 -5.19,-3.83 c -3.61,-1.61 -5,-1.28 -8.28,-2 -3.28,-0.72 -3.87,0.61 -5,1.23 -2.69,1.48 -3.34,1.73 -4,3.21 -0.66,1.48 -1.43,3.42 0.67,3.42 1.92,0 2,-3.17 3.9,-3 1.9,0.17 2.77,3 4.07,3 h 0.5 c 1.11,0 1.17,-0.93 0.49,-2.38 -0.68,-1.45 -1.42,-2.76 -1.42,-2.76 a 5.67,5.67 0 0 1 2.5,2.62 c 0.89,1.89 1.05,2.69 2.69,2.69 1.64,0 1.52,-1.22 -0.11,-3.9 a 6.33,6.33 0 0 1 2.27,2.32 c 0.8,1.51 1.22,1.41 2.27,1.41 1.37,0 1.28,-2.27 -1.16,-3.76 -0.01,0 0.53,-0.66 4.01,2.82 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path199" />
+    <path
+       d="m 215.64,276.3 c 0,0 1,-0.05 1.56,1.57"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path201" />
+    <path
+       d="m 189.7,202.12 a 1.71,1.71 0 0 1 2.22,-1.64 c 3.46,1.08 9.7,4 9.42,10.51 -0.38,9 0,27.33 0,27.33 0,0 3.45,-1.47 7.5,12.52 4.05,13.99 4.6,17.9 4.6,17.9 0,0 -4.84,-3.49 -9.67,1.7 0,0 -11,-20.74 -12.64,-29.68 -1.4,-7.53 -1.45,-31.28 -1.43,-38.64 z"
+       style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path203" />
+    <path
+       d="m 214.72,270.44 c 0,0 -5.63,-3.65 -10.95,2.2 l -3.32,-3.9 c 0,0 4,-3.54 8.39,-3.66 4.39,-0.12 5.88,1.46 5.88,1.46 z"
+       style="fill:#afb23a"
+       id="path205" />
+    <g
+       clip-path="url(#freepik--clip-path-18--inject-81)"
+       id="g209">
+      <path
+         d="m 214.72,270.44 c 0,0 -5.63,-3.65 -10.95,2.2 l -3.32,-3.9 c 0,0 4,-3.54 8.39,-3.66 4.39,-0.12 5.88,1.46 5.88,1.46 z"
+         style="opacity:0.6;fill:#ffffff"
+         id="path207" />
+    </g>
+    <path
+       d="m 214.72,270.44 c 0,0 -5.63,-3.65 -10.95,2.2 l -3.32,-3.9 c 0,0 4,-3.54 8.39,-3.66 4.39,-0.12 5.88,1.46 5.88,1.46 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path211" />
+    <path
+       d="m 202.4,250.68 c -0.25,-11.71 2.93,-26.11 -3.42,-33.92 0,0 0.25,-12.2 -9.27,-16.84 -9.52,-4.64 -33.19,-6.83 -39.29,-1.95 -5.13,4.11 1.94,45 3,75.45 0.19,5.75 -1.74,11.13 -2,15.81 0,0 1.95,3.66 11.71,0 9.76,-3.66 37.82,-4.75 37.82,-4.75 0,0 1.69,-22.09 1.45,-33.8 z"
+       style="fill:#afb23a"
+       id="path213" />
+    <g
+       clip-path="url(#freepik--clip-path-19--inject-81)"
+       id="g217">
+      <path
+         d="m 202.15,264 c -2.11,3.1 -6.24,7.77 -12,8 -8.72,0.34 -1.24,-16.94 -3.34,-18.79 -2.1,-1.85 -9.65,18.44 -23.93,15.62 -14.28,-2.82 -2.57,-6.26 -2.24,-16.83 0.33,-10.57 3.25,-28.46 -3.09,-28.3 -2.57,0.07 -5.08,4.81 -7.16,10.43 1.19,12.69 2.62,26.84 3,39.26 0.19,5.75 -1.74,11.13 -2,15.81 0,0 1.95,3.66 11.71,0 9.76,-3.66 37.82,-4.75 37.82,-4.75 0,0 0.8,-10.19 1.23,-20.45 z"
+         style="opacity:0.3"
+         id="path215" />
+    </g>
+    <path
+       d="m 202.4,250.68 c -0.25,-11.71 2.93,-26.11 -3.42,-33.92 0,0 0.25,-12.2 -9.27,-16.84 -9.52,-4.64 -33.19,-6.83 -39.29,-1.95 -5.13,4.11 1.94,45 3,75.45 0.19,5.75 -1.74,11.13 -2,15.81 0,0 1.95,3.66 11.71,0 9.76,-3.66 37.82,-4.75 37.82,-4.75 0,0 1.69,-22.09 1.45,-33.8 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path219" />
+    <path
+       d="m 188,199.17 c 1.54,3 3.84,8.18 3,10.19 -1.3,2.93 -4.56,-3.58 -6.35,-3.26 -1.79,0.32 -3.25,4.45 -6.67,4 -3.15,-0.4 -7.83,-9.86 -15.06,-14.89 8.4,-0.14 18.76,1.47 25.08,3.96 z"
+       style="fill:#afb23a"
+       id="path221" />
+    <g
+       clip-path="url(#freepik--clip-path-20--inject-81)"
+       id="g225">
+      <path
+         d="m 188,199.17 c 1.54,3 3.84,8.18 3,10.19 -1.3,2.93 -4.56,-3.58 -6.35,-3.26 -1.79,0.32 -3.25,4.45 -6.67,4 -3.15,-0.4 -7.83,-9.86 -15.06,-14.89 8.4,-0.14 18.76,1.47 25.08,3.96 z"
+         style="opacity:0.7;fill:#ffffff"
+         id="path223" />
+    </g>
+    <path
+       d="m 188,199.17 c 1.54,3 3.84,8.18 3,10.19 -1.3,2.93 -4.56,-3.58 -6.35,-3.26 -1.79,0.32 -3.25,4.45 -6.67,4 -3.15,-0.4 -7.83,-9.86 -15.06,-14.89 8.4,-0.14 18.76,1.47 25.08,3.96 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path227" />
+    <path
+       d="m 165.71,283.13 c -13.67,1.42 -2.86,-5.34 -2.86,-5.34"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path229" />
+    <path
+       d="m 187.56,251.05 c -3.62,10.4 -10.75,27.67 -19.32,31.4"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path231" />
+    <path
+       d="m 190.12,243 c 0,0 -0.46,1.62 -1.29,4.22"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path233" />
+    <path
+       d="m 191.54,278.33 c 0,0 4.66,2.16 6.18,2.93 0.49,0.25 2.73,1.1 1.1,1.87 -1.4,0.66 -5.82,-1.58 -5.82,-1.58 l -4.27,-0.86 z"
+       style="fill:#ffffff"
+       id="path235" />
+    <g
+       clip-path="url(#freepik--clip-path-21--inject-81)"
+       id="g239">
+      <path
+         d="m 191.54,278.33 c 0,0 4.66,2.16 6.18,2.93 0.49,0.25 2.73,1.1 1.1,1.87 -1.4,0.66 -5.82,-1.58 -5.82,-1.58 l -4.27,-0.86 z"
+         style="opacity:0.2"
+         id="path237" />
+    </g>
+    <path
+       d="m 191.54,278.33 c 0,0 4.66,2.16 6.18,2.93 0.49,0.25 2.73,1.1 1.1,1.87 -1.4,0.66 -5.82,-1.58 -5.82,-1.58 l -4.27,-0.86 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path241" />
+    <path
+       d="m 164.62,273 12.81,7.2 a 12.88,12.88 0 0 0 8.3,3.17 8.54,8.54 0 0 0 7.2,-3.66 l 2.68,0.36 c 0,0 3.29,3.05 4.27,1.71 V 281 l -2.16,-2.07 -1.13,-0.8 1.87,0.35 a 6.6,6.6 0 0 0 2.92,1.71 c 0,0 5.37,3 5.94,1.13 0,0 1.63,0.33 2,-0.48 0.37,-0.81 -0.65,-1.91 -0.65,-1.91 a 1.72,1.72 0 0 0 1.7,-0.8 c 0.49,-0.95 -2,-1.85 -2.68,-2.34 -0.68,-0.49 -4.23,-3.09 -6.18,-3.25 -1.95,-0.16 -15.29,2.77 -17.25,1.79 -1.96,-0.98 -14.48,-10.82 -14.48,-10.82 l -6.75,8.22 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path243" />
+    <path
+       d="m 206.59,280.11 c 0,0 -6.67,-4.06 -7.65,-4.47 -0.98,-0.41 -4.63,0 -4.63,0"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path245" />
+    <path
+       d="m 206.92,277.79 a 60.2,60.2 0 0 0 -5.37,-3.12 2.69,2.69 0 0 0 -2.55,-0.3"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path247" />
+    <path
+       d="m 152.59,198.84 c -0.71,-0.89 -1.44,-1.25 -2.17,-0.87 0,0 -4.39,1.47 -7.16,14 -2.77,12.53 -4.23,42.95 -1.79,46.53 2.44,3.58 23.27,15.29 23.27,15.29 0,0 1,-3.9 8,-8.13 0,0 -12.85,-12.53 -14.8,-12 0,0 1.51,-1.68 -1.79,-2.28 0,0 1,-10.57 1,-16.11 0,0 2.6,-4.88 1.79,-13.17"
+       style="fill:#afb23a;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path249" />
+    <path
+       d="m 154.7,222.55 c 1,3.44 2.27,8.42 1.58,10.19 -1.1,2.81 -2.6,-5.48 -5.25,-7.44"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path251" />
+    <path
+       d="m 153.59,219.08 c 0,0 0.22,0.63 0.54,1.63"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path253" />
+    <path
+       d="m 152.59,254.61 c -1,0.43 -2.53,0.75 -3.14,3.27"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path255" />
+    <path
+       d="m 147.37,252.51 c 0,0 5.49,-1.46 6,0.73"
+       style="opacity:0.3"
+       id="path257" />
+    <path
+       d="m 175.75,267 c 0,0 -4.88,1.59 -7.93,8.91 l -4.51,-1.35 c 0,0 0.85,-6.58 9.51,-11.34 z"
+       style="fill:#afb23a"
+       id="path259" />
+    <g
+       clip-path="url(#freepik--clip-path-22--inject-81)"
+       id="g263">
+      <path
+         d="m 175.75,267 c 0,0 -4.88,1.59 -7.93,8.91 l -4.51,-1.35 c 0,0 0.85,-6.58 9.51,-11.34 z"
+         style="opacity:0.6;fill:#ffffff"
+         id="path261" />
+    </g>
+    <path
+       d="m 175.75,267 c 0,0 -4.88,1.59 -7.93,8.91 l -4.51,-1.35 c 0,0 0.85,-6.58 9.51,-11.34 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path265" />
+    <path
+       d="m 191.9,148.19 c 0,0 15,1.14 12.53,5.37 -2.47,4.23 8.79,6.51 5.53,11.06 -3.26,4.55 3.88,12 -0.42,14.15 -4.3,2.15 -3,7.16 -1.37,9.93 1.63,2.77 -3.74,5.53 -7.64,5 -3.9,-0.53 1,4.72 -0.65,5.7 -1.65,0.98 -3.42,-3.26 -6.43,-2.77 -3.01,0.49 -9.35,-2.79 -11.22,-2.29 -1.87,0.5 -25.71,-0.8 -25.75,-2.43 -0.04,-1.63 2.4,-1.62 2.08,-3.25 -0.32,-1.63 -4.4,-0.45 -4.8,-4 -0.4,-3.55 2.8,-4.7 2.72,-8 -0.08,-3.3 -2.72,-2.16 -2.76,-6.71 -0.04,-4.55 6.63,-5.21 7.11,-7.48 0.48,-2.27 -6.05,-2.24 -3.69,-6.33 2.36,-4.09 9.06,-2.62 10.85,-4.9 1.79,-2.28 -3.83,-2.7 0.16,-5.69 3.99,-2.99 18.59,-3.55 23.75,2.64 z"
+       style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path267" />
+    <path
+       d="m 185.06,199.14 c 1.14,1.39 4.24,5.83 -2.75,5.66 -6.99,-0.17 -17.57,-9.58 -17.57,-9.58 0,0 4.23,-1.64 7,-8.15 1.21,-2.84 3.91,-11.71 3.91,-11.71 l 10.7,11.55 -3.35,9.27 c 0,0 1.6,2.4 2.06,2.96 z"
+       style="fill:#ffffff"
+       id="path269" />
+    <g
+       clip-path="url(#freepik--clip-path-23--inject-81)"
+       id="g273">
+      <path
+         d="m 185.21,195.22 c 0,0 -9.55,-4.92 -10.63,-13.09 -1.08,-8.17 0.89,-7.83 0.89,-7.83 l 3.77,8.54 5,5.36 2.61,4.3 z"
+         style="fill:#263238"
+         id="path271" />
+    </g>
+    <path
+       d="m 185.06,199.14 c 1.14,1.39 4.24,5.83 -2.75,5.66 -6.99,-0.17 -17.57,-9.58 -17.57,-9.58 0,0 4.23,-1.64 7,-8.15 1.21,-2.84 3.91,-11.71 3.91,-11.71 l 10.7,11.55 -3.35,9.27 c 0,0 1.6,2.4 2.06,2.96 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path275" />
+    <path
+       d="m 201,159.74 c 0,0 2.11,9.92 0.4,13.18 -1.71,3.26 -0.16,7.48 -3.58,11.39 -3.42,3.91 -5.91,10.9 -10.08,9.92 -5.46,-1.29 -11.61,-8.62 -12,-11.55 a 25.63,25.63 0 0 1 0,-5.62 3,3 0 0 1 -2.46,-1 c -1.3,-1.22 -3,-6.17 0,-7.81 2.64,-1.43 3.71,1.63 3.71,1.63 l 7.59,-10.9 z"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path277" />
+    <path
+       d="m 195.32,177.72 c -0.49,1.54 1.79,4.06 1.06,5.2 -0.73,1.14 -2.6,0.57 -2.6,1.71"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path279" />
+    <path
+       d="m 192.88,186.75 c 0,0 -3.66,0.48 -5.81,-2.12"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path281" />
+    <path
+       d="m 197.53,176.53 c -0.25,0.85 -0.14,1.64 0.26,1.76 0.4,0.12 0.92,-0.48 1.17,-1.34 0.25,-0.86 0.14,-1.64 -0.26,-1.75 -0.4,-0.11 -0.91,0.48 -1.17,1.33 z"
+       style="fill:#263238"
+       id="path283" />
+    <path
+       d="m 189.57,175 c -0.26,0.85 -0.14,1.64 0.25,1.76 0.39,0.12 0.92,-0.48 1.17,-1.34 0.25,-0.86 0.14,-1.64 -0.25,-1.76 -0.39,-0.12 -0.92,0.45 -1.17,1.34 z"
+       style="fill:#263238"
+       id="path285" />
+    <path
+       d="m 200.53,173.73 c 0,0 -1.06,-2.36 -3.66,0.57"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path287" />
+    <path
+       d="m 193.45,172.83 c 0,0 -2.77,-3.73 -5.69,-0.64"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path289" />
+    <path
+       d="m 195.64,156.49 c 0,0 0.07,7 3.06,7.07 2.99,0.07 0.1,5.17 4.28,5.74 4.18,0.57 0,-8.42 0,-8.42 l -2.74,-3.29 z"
+       style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path291" />
+    <path
+       d="m 196.54,156.49 c 0,0 -1.71,6.34 -4.76,7.07 -3.05,0.73 -5.24,1.22 -5.85,3.91 -0.61,2.69 -4.15,3.17 -5.62,5.12 -1.47,1.95 1.1,9.93 -2.07,11.07 a 11.8,11.8 0 0 0 0,-5.49 c -0.73,-2.89 -2.62,-5.7 -1.25,-10.82 1.37,-5.12 7.47,-10.86 7.47,-10.86 l 6.14,-0.73 z"
+       style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path293" />
+    <path
+       d="m 174.47,177.43 c 0,0 1.22,6.59 0,9.09 -1.22,2.5 2.19,3.54 0.55,5.49 -1.64,1.95 -8.35,3.3 -9.82,0 -1.47,-3.3 7.51,-15.25 9.27,-14.58 z"
+       style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path295" />
+    <path
+       d="m 203.77,185.81 c 1.31,3.86 -2.06,4.12 -5.07,4.79 -3.01,0.67 -1.83,5.17 -1.83,5.17"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path297" />
+    <path
+       d="m 206.25,178 c -1.48,1.56 -2.89,3.75 -2.78,6.16"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path299" />
+    <path
+       d="m 206.68,166.39 c -0.13,3.51 2.72,8.92 1,10.31"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path301" />
+    <path
+       d="m 202.09,157.59 c 0,0 7.38,3.9 5.19,6.83"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path303" />
+    <path
+       d="m 202.24,154 c -0.49,0.72 -1.65,0.65 -1.71,1.75"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path305" />
+    <path
+       d="m 192.88,150 c 0,0 9.35,1 9.56,2.93"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path307" />
+    <path
+       d="m 157.38,169.32 c 0.48,2.18 4.26,6.68 2.19,10.1 -2.07,3.42 -3.41,4.64 -0.49,5.86"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path309" />
+    <path
+       d="m 161.52,157.59 c 0.37,2.31 4.12,2.44 3.22,6.22 -0.63,2.67 -4.3,3.24 -6.22,4.11"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path311" />
+    <path
+       d="m 170.88,150.49 c -0.33,2.84 2.34,3.56 -1.67,5.27 a 11.56,11.56 0 0 1 -5.6,0.83"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path313" />
+    <path
+       d="m 190,150 c 0,0 -15.85,-6.47 -18.37,-1.71"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path315" />
+    <path
+       d="m 162.85,185.81 c 0.5,2.16 -2.06,4.79 -2.06,4.79"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path317" />
+    <path
+       d="m 168,160.27 c -0.61,2.44 1.71,3.66 0.86,6.22 -0.85,2.56 -5.53,1.5 -6,3.5 -0.47,2 3.27,4.68 1.89,8.58 -0.69,2 -1.29,3.22 -1.65,4.27"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path319" />
+    <path
+       d="m 174.58,156.49 c -0.85,2.31 -3,2.26 -4.59,2.49"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path321" />
+    <path
+       d="m 174.1,152 a 9.24,9.24 0 0 0 0.57,2.46"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path323" />
+    <path
+       d="m 191.93,152.22 c 0,0 -15.57,-6 -17.35,-2.2"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path325" />
+    <path
+       d="m 170,178.3 c -0.51,1.43 -2.27,2.44 -2.46,4.54 -0.24,2.81 0.74,4.85 -0.85,7.24"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path327" />
+    <path
+       d="m 178.6,157.73 a 8.49,8.49 0 0 1 -4.26,5.18 c -2.57,1.39 -2.2,4.76 -3.91,6.8 -1.71,2.04 -1.34,4.47 -0.49,7"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path329" />
+    <path
+       d="m 194.59,154.41 c 0,0 -14.28,-2.68 -15.37,1.35"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path331" />
+    <path
+       d="m 198.7,154.05 c 0,0 -0.43,-2.15 -4.11,-1.16"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path333" />
+    <path
+       d="m 193.78,157.59 a 8.69,8.69 0 0 1 -6,3.84 c -4.22,0.65 -4.22,5.37 -6.17,6.67 -1.95,1.3 -4.26,1.61 -3.09,7.67"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:round"
+       id="path335" />
+    <path
+       d="m 183,196.18 c 0,0 -1.16,2.11 1.28,4.23"
+       style="fill:#ffffff;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path337" />
+    <path
+       d="m 207.76,283 18.58,-33.54 a 4.28,4.28 0 0 1 3.73,-2.2 h 1.53 v 38.56 H 209.42 A 1.9,1.9 0 0 1 207.76,283 Z"
+       style="fill:#263238;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path339" />
+    <path
+       d="m 210.74,285.82 h 37.34 a 3.66,3.66 0 0 0 3.19,-1.88 l 19.15,-34.58 a 1.42,1.42 0 0 0 -1.24,-2.1 h -37.79 a 4.31,4.31 0 0 0 -3.74,2.2 L 209.08,283 a 1.9,1.9 0 0 0 1.66,2.82 z"
+       style="fill:#ffffff"
+       id="path341" />
+    <g
+       clip-path="url(#freepik--clip-path-24--inject-81)"
+       id="g345">
+      <path
+         d="m 210.74,285.82 h 37.34 a 3.66,3.66 0 0 0 3.19,-1.88 l 19.15,-34.58 a 1.42,1.42 0 0 0 -1.24,-2.1 h -37.79 a 4.31,4.31 0 0 0 -3.74,2.2 L 209.08,283 a 1.9,1.9 0 0 0 1.66,2.82 z"
+         style="opacity:0.2"
+         id="path343" />
+    </g>
+    <path
+       d="m 210.74,285.82 h 37.34 a 3.66,3.66 0 0 0 3.19,-1.88 l 19.15,-34.58 a 1.42,1.42 0 0 0 -1.24,-2.1 h -37.79 a 4.31,4.31 0 0 0 -3.74,2.2 L 209.08,283 a 1.9,1.9 0 0 0 1.66,2.82 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path347" />
+    <path
+       d="m 178.24,285.82 h 28.12 a 1.16,1.16 0 0 0 1.16,-1.16 v -1.53 h -32 a 2.68,2.68 0 0 0 2.72,2.69 z"
+       style="fill:#ffffff"
+       id="path349" />
+    <g
+       clip-path="url(#freepik--clip-path-25--inject-81)"
+       id="g353">
+      <path
+         d="m 178.24,285.82 h 28.12 a 1.16,1.16 0 0 0 1.16,-1.16 v -1.53 h -32 a 2.68,2.68 0 0 0 2.72,2.69 z"
+         style="opacity:0.4"
+         id="path351" />
+    </g>
+    <path
+       d="m 178.24,285.82 h 28.12 a 1.16,1.16 0 0 0 1.16,-1.16 v -1.53 h -32 a 2.68,2.68 0 0 0 2.72,2.69 z"
+       style="fill:none;stroke:#263238;stroke-linecap:round;stroke-linejoin:round"
+       id="path355" />
+  </g>
+</svg>
