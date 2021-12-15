@@ -6,3 +6,10 @@
 :host ::ng-deep .links-bar-container{
     border-radius: 0 !important;
 }
+
+.text_align{
+    // md
+    @media (min-width: 768px) {
+        text-align: start !important;
+    }
+}

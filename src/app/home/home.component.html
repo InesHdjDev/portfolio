@@ -2,16 +2,16 @@
     <div class="row h-100 pt-5 pt-md-0">
         <div class="col-sm-12 col-md-6 col-lg-6 animated mb-4 d-flex justify-content-md-start justify-content-sm-center align-items-center align-items-sm-center align-items-lg-end align-items-xl-end align-items-xxl-center"  style="max-height: 90vh;" [ngClass]="global.getCurrentLang() === 'ar'? 'fadeInRight' :'fadeInLeft'">
             <div>
-                <div class="mb-4 text-center" [ngClass]="global.getCurrentLang() === 'ar'? 'text-md-end' :'text-md-start'">
+                <div class="mb-4 text-center text_align">
                     <span class="home_sub_heading_title" translate>home.sub_title</span>
                 </div>
-                <div class="mb-4 text-center" [ngClass]="global.getCurrentLang() === 'ar'? 'text-md-end' :'text-md-start'">
+                <div class="mb-4 text-center text_align">
                     <span class="home_heading_title" dir="auto" translate>home.title</span>
                 </div>
-                <div class="mb-4 text-center" [ngClass]="global.getCurrentLang() === 'ar'? 'text-md-end' :'text-md-start'">
+                <div class="mb-4 text-center text_align">
                     <span style="font-size: 20px; color: #ffffff;" translate>home.desc</span>
                 </div>
-                <div class="text-center" [ngClass]="global.getCurrentLang() === 'ar'? 'text-md-end' :'text-md-start'">
+                <div class="text-center text_align">
                     <button class="btn p-btn" [routerLink]="['/contact']" translate>home.primary_button</button>
                     <button class="btn d-btn m-3" translate>home.secondary_button</button>
                 </div>
