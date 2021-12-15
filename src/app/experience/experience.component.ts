@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, ElementRef, HostListener, Inject, OnInit } from '@angular/core';
+import { GlobalService } from '../services/global.service';
 
 @Component({
   selector: 'app-experience',
@@ -10,7 +11,8 @@ export class ExperienceComponent {
 
   constructor(
     @Inject(DOCUMENT) private document: Document,
-    private el: ElementRef
+    private el: ElementRef,
+    public global: GlobalService
     ) { }
 
   @HostListener('window:scroll', [])

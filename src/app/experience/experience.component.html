@@ -40,9 +40,9 @@
                         </div>
                     </div>
                     <div class="col-sm-10 col-md-10 col-lg-10 experience_desc_container">
-                        <div class="w-100 bg-white experience_desc" dir="auto">
+                        <div class="w-100 bg-white experience_desc" style="text-align: start;">
                             <h2 class="element_date" translate dir="auto">experience.experience_1.date</h2>
-                            <h2 class="element_title" translate dir="auto">experience.experience_1.title</h2>
+                            <h2 class="element_title" translate dir="auto" [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''">experience.experience_1.title</h2>
                             <p class="element_details" translate dir="auto">
                                 <!-- • --> 
                                 experience.experience_1.desc
@@ -59,9 +59,9 @@
                         </div>
                     </div>
                     <div class="col-sm-10 col-md-10 col-lg-10 experience_desc_container">
-                        <div class="w-100 bg-white experience_desc">
+                        <div class="w-100 bg-white experience_desc" style="text-align: start;">
                             <h2 class="element_date" translate dir="auto">experience.experience_2.date</h2>
-                            <h2 class="element_title" translate dir="auto">experience.experience_2.title</h2>
+                            <h2 class="element_title" translate dir="auto" [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''">experience.experience_2.title</h2>
                             <p class="element_details" translate dir="auto">
                                 experience.experience_2.desc
                             </p>
@@ -75,9 +75,9 @@
                         </div>
                     </div>
                     <div class="col-sm-10 col-md-10 col-lg-10 experience_desc_container">
-                        <div class="w-100 bg-white experience_desc">
+                        <div class="w-100 bg-white experience_desc" style="text-align: start;">
                             <h2 class="element_date" translate dir="auto">experience.experience_3.date</h2>
-                            <h2 class="element_title" translate dir="auto">experience.experience_3.title</h2>
+                            <h2 class="element_title" translate dir="auto" [ngClass]="global.getCurrentLang() === 'ar'? 'text-end' :''">experience.experience_3.title</h2>
                             <p class="element_details" translate dir="auto" innerHtml="{{'experience.experience_3.desc' | translate}} <br><br> {{'experience.experience_3.desc_2' | translate}}"></p>
                         </div>
                     </div>
