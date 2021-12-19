@@ -29,10 +29,15 @@ export class ContactComponent implements OnInit {
     private http: HttpClient,
     private messageService: MessageService,
     public translate: TranslateService,
+    public global: GlobalService
   ) { }
 
   ngOnInit(): void {
     this.initContactForm();
+  }
+
+  showResponse(event: any){
+
   }
 
   sendMessage(btn: any){

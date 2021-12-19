@@ -34,7 +34,7 @@
                             <span class="heading_title" style="color: #3d3ab2; font-weight: bold; font-size: clamp(1rem, 1.6rem, 1.8rem);" translate>cantact.form.title</span>
                         </div>
                     </div>
-                    <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)" dir="auto">
+                    <form [formGroup]="contactForm" (ngSubmit)="sendMessage(btnSM)" [dir]="global.getCurrentLang() === 'ar'? 'rtl' : 'ltr'">
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
                                 <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.name.placeholder' | translate}}" formControlName="name">
@@ -60,6 +60,11 @@
                                 <div style="text-align: start;"><small *ngIf="contactForm.controls.message.invalid && contactForm.controls.message.touched  && contactForm.controls.message.errors['required'];" class="text-danger" translate>cantact.form.message.error</small></div>
                             </div>
                         </div>
+                        <!-- <div class="row mt-3">
+                            <div class="col-12">
+                                <p-captcha siteKey="YOUR_SITE_KEY" [language]="global.getCurrentLang()" (onResponse)="showResponse($event)"></p-captcha>
+                            </div>
+                        </div> -->
                         <div class="row mt-4">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <!-- <button class="btn p-btn rounded-pill" #btnSM> <span> <app-loader-checkmark [complete]="false"></app-loader-checkmark></span></button> -->

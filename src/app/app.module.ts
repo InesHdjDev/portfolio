@@ -28,6 +28,7 @@ import { FatalComponent } from './fatal/fatal.component';
 import { ErrorOccurredComponent } from './error-occurred/error-occurred.component';
 import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {CaptchaModule} from 'primeng/captcha';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
     ButtonModule,
     SharedModule,
     ScrollTopModule,
+    CaptchaModule,
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,
