@@ -43,15 +43,15 @@
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
-                                <input type="email" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.email.placeholder' | translate}}" formControlName="_replyto">
-                                <div style="text-align: start;"><small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.errors['required'];" class="text-danger" translate>cantact.form.email.error</small></div>
-                                <div style="text-align: start;"><small *ngIf="contactForm.controls._replyto.invalid && contactForm.controls._replyto.touched && contactForm.controls._replyto.dirty && contactForm.controls._replyto.errors['email'];" class="text-danger" translate>cantact.form.email.error_format</small></div>
+                                <input type="email" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.email.placeholder' | translate}}" formControlName="email">
+                                <div style="text-align: start;"><small *ngIf="contactForm.controls.email.invalid && contactForm.controls.email.touched && contactForm.controls.email.errors['required'];" class="text-danger" translate>cantact.form.email.error</small></div>
+                                <div style="text-align: start;"><small *ngIf="contactForm.controls.email.invalid && contactForm.controls.email.touched && contactForm.controls.email.dirty && contactForm.controls.email.errors['email'];" class="text-danger" translate>cantact.form.email.error_format</small></div>
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-sm-12 col-md-12 col-lg-12 text-start">
-                                <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.subject.placeholder' | translate}}" formControlName="subject">
-                                <div style="text-align: start;"><small *ngIf="contactForm.controls.subject.invalid && contactForm.controls.subject.touched  && contactForm.controls.subject.errors['required'];" class="text-danger" translate>cantact.form.subject.error</small></div>
+                                <input type="text" pInputText class="form-control form_input w-100" placeholder="{{'cantact.form.subject.placeholder' | translate}}" formControlName="_subject">
+                                <div style="text-align: start;"><small *ngIf="contactForm.controls._subject.invalid && contactForm.controls._subject.touched  && contactForm.controls._subject.errors['required'];" class="text-danger" translate>cantact.form.subject.error</small></div>
                             </div>
                         </div>
                         <div class="row mt-3">

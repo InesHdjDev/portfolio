@@ -19,9 +19,11 @@ export class ContactComponent implements OnInit {
   initContactForm(){
     this.contactForm = new FormGroup({
       name: new FormControl('', Validators.required),
-      _replyto: new FormControl('',[ Validators.required, Validators.email]),
-      subject: new FormControl('', Validators.required),
+      email: new FormControl('',[ Validators.required, Validators.email]),
+      _subject: new FormControl('', Validators.required),
       message: new FormControl('', Validators.required),
+      _captcha: new FormControl("false"),
+      //_next: new FormControl("https://localhost:4200/thankyoupage/"),
     })
   }
 
@@ -44,13 +46,13 @@ export class ContactComponent implements OnInit {
     if (this.contactForm.valid) {
       btn.disabled = true
       
-      const data = <any>{
+      /* const data = <any>{
         name: this.contactForm.get("name").value,
-        _replyto: this.contactForm.get("_replyto").value,
-        message: "SUBJECT: \n" + this.contactForm.get("subject").value + "\n MESSAGE: \n" + this.contactForm.get("message").value,
-      }
+        email: this.contactForm.get("email").value,
+        message: "_subject: \n" + this.contactForm.get("_subject").value + "\n MESSAGE: \n" + this.contactForm.get("message").value,
+      } */
   
-      this.http.post("https://formspree.io/f/mgergyrb", data).subscribe(
+      this.http.post("https://formsubmit.co/a7d812d5314e8ead9d1c31d63bce1b97", this.contactForm.value).subscribe(
         res =>{
           this.complete = true;
           this.messageService.add({key: 'KeyContact', severity:'success', summary:this.translate.instant('cantact.form.feedback.success_summary'), detail: this.translate.instant('cantact.form.feedback.success') });
