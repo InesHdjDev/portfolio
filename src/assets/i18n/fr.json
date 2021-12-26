@@ -128,5 +128,9 @@
 		},
 		"sub_title": "EXPERTISE",
 		"title": "compétences particulières"
+	},
+	"page_not_found":{
+		"title": "ERREUR",
+		"sub_title": "Page non trouvé"
 	}
 }

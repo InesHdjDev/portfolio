@@ -128,5 +128,9 @@
 		},
 		"sub_title": "EXPERTISE",
 		"title": "SPECIAL SKILLS"
+	},
+	"page_not_found":{
+		"title": "ERROR",
+		"sub_title": "Page not found"
 	}
 }
