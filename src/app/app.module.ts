@@ -29,6 +29,7 @@ import { ErrorOccurredComponent } from './error-occurred/error-occurred.componen
 import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {CaptchaModule} from 'primeng/captcha';
+import { ThankYouPageComponent } from './thank-you-page/thank-you-page.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import {CaptchaModule} from 'primeng/captcha';
     ContactComponent,
     PageNotFoundComponent,
     FatalComponent,
-    ErrorOccurredComponent
+    ErrorOccurredComponent,
+    ThankYouPageComponent
   ],
   imports: [
     BrowserModule,

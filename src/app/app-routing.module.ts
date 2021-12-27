@@ -5,10 +5,12 @@ import { ErrorOccurredComponent } from './error-occurred/error-occurred.componen
 import { FatalComponent } from './fatal/fatal.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ThankYouPageComponent } from './thank-you-page/thank-you-page.component';
 
 const routes: Routes = [
   { path: "", component: HomePageComponent, pathMatch: 'full' },
   { path: "contact", component: ContactComponent, pathMatch: 'full' },
+  { path: "thank-you", component: ThankYouPageComponent, pathMatch: 'full' },
 
   { path: "oops", component: ErrorOccurredComponent },
   { path: "fatal", component: FatalComponent },
